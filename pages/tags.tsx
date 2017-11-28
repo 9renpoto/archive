@@ -1,10 +1,31 @@
 import React from 'react'
 
-import withPosts, { inCategory, sortByDate } from 'nextein/posts'
+import withPosts from 'nextein/posts'
 
-import Navigation from '../components/navigation'
-import NexteinHello from '../components/nextein-hello'
-import PostListEntry from '../components/post-list-entry'
+import NexteinHello from '../components/Hero'
+import Navigation from '../components/Nav'
+import PostListEntry from '../components/PostListEntry'
+
+const styles = {
+  main: {
+    fontFamily:
+      '-apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif',
+    fontWeight: 100,
+    display: 'flex',
+    flexDirection: 'column'
+  },
+  section: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignSelf: 'center',
+    width: '60vw'
+  },
+  navigation: {
+    position: 'absolute',
+    alignSelf: 'center',
+    width: '60vw'
+  }
+}
 
 const containsTag = tag => post => {
   const tags = [].concat(post.data.tag)
@@ -47,24 +68,3 @@ const Index = ({ posts }) => {
 }
 
 export default withPosts(Index)
-
-const styles = {
-  main: {
-    fontFamily:
-      '-apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif',
-    fontWeight: 100,
-    display: 'flex',
-    flexDirection: 'column'
-  },
-  section: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignSelf: 'center',
-    width: '60vw'
-  },
-  navigation: {
-    position: 'absolute',
-    alignSelf: 'center',
-    width: '60vw'
-  }
-}

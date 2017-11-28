@@ -1,6 +1,5 @@
-import React from 'react'
-
 import Link from 'nextein/link'
+import React from 'react'
 
 export default ({ items }) => {
   return (
