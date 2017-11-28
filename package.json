@@ -1,0 +1,50 @@
+{
+  "name": "@9renpoto/archive",
+  "version": "0.0.1",
+  "bugs": {
+    "url": "https://github.com/9renpoto/archive/issues"
+  },
+  "dependencies": {
+    "next": "^4.1.4",
+    "nextein": "^1.0.0",
+    "preact": "^8.2.6",
+    "preact-compat": "^3.17.0"
+  },
+  "devDependencies": {
+    "@9renpoto/eslint-config": "^2.3.0",
+    "@9renpoto/tslint-config": "^3.4.0",
+    "concurrently": "^3.5.1",
+    "eslint": "^4.12.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^5.0.0",
+    "prettier": "^1.8.2",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "homepage": "https://github.com/9renpoto/archive#readme",
+  "keywords": [],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{ts,tsx}": [
+      "prettier --parser typescript --write",
+      "tslint --fix",
+      "git add"
+    ]
+  },
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/9renpoto/archive.git"
+  },
+  "scripts": {
+    "dev": "concurrently \"tsc --pretty --watch\" \"nextein\"",
+    "export": "nextein build && nextein export",
+    "precommit": "lint-staged"
+  }
+}
