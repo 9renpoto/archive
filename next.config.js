@@ -21,11 +21,7 @@ const getStories = async () => {
 }
 
 module.exports = config({
-  webpack: function (c, { dev }) {
-    if (dev) {
-      return c
-    }
-
+  webpack: c => {
     c.resolve.alias = {
       react: 'preact-compat/dist/preact-compat',
       'react-dom': 'preact-compat/dist/preact-compat'

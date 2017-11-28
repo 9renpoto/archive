@@ -1,19 +1,4 @@
-import React from 'react'
-
-export default ({ tags }) => {
-  return (
-    !!tags.length && (
-      <div>
-        {tags.map(tag => (
-          <span style={styles.tag} key={`tag-${tag}`}>
-            {' '}
-            &gt; {tag}
-          </span>
-        ))}
-      </div>
-    )
-  )
-}
+import * as React from 'react'
 
 const styles = {
   tag: {
@@ -23,4 +8,20 @@ const styles = {
     margin: 3,
     padding: 5
   }
+}
+
+export default ({ tags }) => {
+  if (!tags.length) {
+    return null
+  }
+  return (
+    <div>
+      {tags.map(tag => (
+        <span style={styles.tag} key={`tag-${tag}`}>
+          {' '}
+          &gt; {tag}
+        </span>
+      ))}
+    </div>
+  )
 }
