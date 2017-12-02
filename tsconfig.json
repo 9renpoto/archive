@@ -6,7 +6,6 @@
     "importHelpers": true,
     "downlevelIteration": true,
     "isolatedModules": true,
-    "noImplicitAny": true,
     "strictNullChecks": true,
     "noImplicitThis": true,
     "removeComments": true,

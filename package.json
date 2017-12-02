@@ -5,6 +5,7 @@
     "url": "https://github.com/9renpoto/archive/issues"
   },
   "dependencies": {
+    "@9renpoto/style": "^0.0.2",
     "next": "^4.1.4",
     "nextein": "^1.0.0",
     "preact": "^8.2.6",
@@ -14,6 +15,7 @@
     "@9renpoto/eslint-config": "^2.3.0",
     "@9renpoto/tslint-config": "^3.4.0",
     "concurrently": "^3.5.1",
+    "cpx": "^1.5.0",
     "eslint": "^4.12.0",
     "husky": "^0.14.3",
     "lint-staged": "^5.0.0",
@@ -46,8 +48,13 @@
     "url": "git+ssh://git@github.com/9renpoto/archive.git"
   },
   "scripts": {
-    "dev": "concurrently \"tsc --pretty --watch\" \"nextein\"",
+    "assets": "cpx node_modules/@9renpoto/style/lib/*.{css} static",
     "export": "nextein build && nextein export",
-    "precommit": "lint-staged"
+    "lint": "tslint {pages,component,post}/**/*.ts{,x}",
+    "precommit": "lint-staged",
+    "preexport": "npm run assets",
+    "prestart": "npm run assets",
+    "start": "concurrently \"tsc --pretty --watch\" \"nextein\"",
+    "test": "npm run export"
   }
 }

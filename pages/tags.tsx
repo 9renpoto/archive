@@ -2,30 +2,8 @@ import React from 'react'
 
 import withPosts from 'nextein/posts'
 
-import NexteinHello from '../components/Hero'
-import Navigation from '../components/Nav'
+import Nav from '../components/Nav'
 import PostListEntry from '../components/PostListEntry'
-
-const styles = {
-  main: {
-    fontFamily:
-      '-apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif',
-    fontWeight: 100,
-    display: 'flex',
-    flexDirection: 'column'
-  },
-  section: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignSelf: 'center',
-    width: '60vw'
-  },
-  navigation: {
-    position: 'absolute',
-    alignSelf: 'center',
-    width: '60vw'
-  }
-}
 
 const containsTag = tag => post => {
   const tags = [].concat(post.data.tag)
@@ -46,10 +24,9 @@ const Index = ({ posts }) => {
   )
 
   return (
-    <main style={styles.main}>
-      <Navigation style={styles.navigation} />
-      <NexteinHello title='Tags' />
-      <section style={styles.section}>
+    <main>
+      <Nav />
+      <section>
         {tags.map(tag => {
           const inTag = posts.filter(containsTag(tag))
 
