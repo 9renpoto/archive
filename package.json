@@ -20,6 +20,7 @@
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
     "markdownlint-cli": "^0.5.0",
+    "npm-run-all": "^4.1.2",
     "prettier": "^1.8.2",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
@@ -71,6 +72,7 @@
   },
   "scripts": {
     "assets": "cpx node_modules/@9renpoto/style/lib/*.{css} static",
+    "clean": "rimraf out .next",
     "export": "nextein build && nextein export",
     "lint": "run-p lint:*",
     "lint:ja": "textlint src/pages --cache",
@@ -78,7 +80,7 @@
     "lint:ts": "tslint {pages,component,post}/**/*.ts{,x}",
     "precommit": "lint-staged",
     "preexport": "npm run assets",
-    "prestart": "npm run assets",
+    "prestart": "run-s clean assets",
     "start": "concurrently \"tsc --pretty --watch\" \"nextein\"",
     "test": "npm run export"
   }
