@@ -1,6 +1,6 @@
 ---
 date: "2016-08-11T21:43:32+09:00"
-path: "/entry/2016/08/11/module-test/"
+permalink: "/entry/2016/08/11/module-test/"
 title: TypeScript with power-assert
 categories:
   - "typescript"

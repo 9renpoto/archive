@@ -1,7 +1,7 @@
 ---
 title: "マルチカーソル"
 date: "2014-07-10"
-path: "/entry/2014/07/10/hash-to-json/"
+permalink: "/entry/2014/07/10/hash-to-json/"
 categories:
   - "atom"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "#hcj-2014"
 date: "2014-07-08"
-path: '/entry/2014/07/08/hcj/'
+permalink: '/entry/2014/07/08/hcj/'
 categories:
   - "hadoop"
 ---

@@ -1,6 +1,6 @@
 ---
 date: "2015-08-21T09:53:55+09:00"
-path: "/entry/2015/08/21/yapcasia/"
+permalink: "/entry/2015/08/21/yapcasia/"
 title: yapcasia
 categories:
   - "perl"

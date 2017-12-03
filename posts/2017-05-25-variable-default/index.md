@@ -1,6 +1,6 @@
 ---
 date: '2017-05-25T20:42:10+09:00'
-path: '/entry/2017/05/25/variable-default/'
+permalink: '/entry/2017/05/25/variable-default/'
 title: variableの範囲でscssをカスタマイズするときの注意
 categories:
   - "css"

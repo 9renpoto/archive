@@ -21,11 +21,12 @@ class Post extends PureComponent<Props> {
           <link rel='stylesheet' href='/static/bundle.css' />
         </Head>
         <Nav />
-        <div />
         <Hero title={title} />
         <section className='section'>
           <div className='container is-fluid'>
-            <Content {...post} />
+            <div className='content'>
+              <Content {...post} />
+            </div>
           </div>
         </section>
       </main>

@@ -1,7 +1,7 @@
 ---
 title: "本日の酒"
 date: '2017-08-15T23:37:00+09:00'
-path: '/entry/2017/08/15/sake/'
+permalink: '/entry/2017/08/15/sake/'
 ---
 # TL;DR
 

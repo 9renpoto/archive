@@ -1,7 +1,7 @@
 ---
 title: "フロントエンド勉強環境にlernaを使う"
 date: '2017-08-26T19:19:00+09:00'
-path: "/entry/2017/08/28/lerna/"
+permalink: "/entry/2017/08/28/lerna/"
 ---
 # TL;DR
 

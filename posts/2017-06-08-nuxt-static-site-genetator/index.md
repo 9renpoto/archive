@@ -1,6 +1,6 @@
 ---
 date: '2017-06-08T22:22:18+09:00'
-path: '/entry/2017/06/08/nuxt-static-site-genetator/'
+permalink: '/entry/2017/06/08/nuxt-static-site-genetator/'
 title: nuxt static site genetator
 categories:
   - "javascript"

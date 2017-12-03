@@ -1,6 +1,6 @@
 ---
 date: '2017-05-14T22:39:17+09:00'
-path: '/entry/2017/05/14/slack-channel-active-reminder/'
+permalink: '/entry/2017/05/14/slack-channel-active-reminder/'
 title: アクティブでなさそうなSlackチャンネルをArchiveお願いする
 categories:
   - "slack"

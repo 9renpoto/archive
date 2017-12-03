@@ -1,6 +1,6 @@
 ---
 date: '2016-09-05T00:54:18+09:00'
-path: '/entry/2016/09/05/study-motivation/'
+permalink: '/entry/2016/09/05/study-motivation/'
 title: 勉強を続けること
 categories:
   - 'life'

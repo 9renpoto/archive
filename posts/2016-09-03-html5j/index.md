@@ -1,6 +1,6 @@
 ---
 date: "2016-09-03T10:02:40+09:00"
-path: "/entry/2016/09/03/html5j/"
+permalink: "/entry/2016/09/03/html5j/"
 title: '#html5j 参加メモ'
 categories:
   - "html"

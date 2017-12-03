@@ -1,6 +1,6 @@
 ---
 date: '2017-05-27T20:28:25+09:00'
-path: '/entry/2017/05/27/storybook-v3-rc/'
+permalink: '/entry/2017/05/27/storybook-v3-rc/'
 title: storybook v3が待ち遠しい
 categories:
   - "javascript"

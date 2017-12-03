@@ -1,7 +1,7 @@
 ---
 title: "Frontend JavaScript Anti-pattern"
 date: '2017-10-31T23:00:00+09:00'
-path: "/entry/2017/10/31/frontend-javascript-anti-pattern/"
+permalink: "/entry/2017/10/31/frontend-javascript-anti-pattern/"
 ---
 # TL;DR
 

@@ -1,6 +1,6 @@
 ---
 date: '2017-06-16T00:00:11+09:00'
-path: '/entry/2017/06/16/google-optimize-variation/'
+permalink: '/entry/2017/06/16/google-optimize-variation/'
 title: google optimize を読む
 categories:
   - 'javascript'

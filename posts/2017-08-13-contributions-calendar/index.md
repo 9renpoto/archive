@@ -1,7 +1,7 @@
 ---
 title: "モチベーションを上げるためにカレンダーを書く"
 date: '2017-08-13T19:36:00+09:00'
-path: '/entry/2017/08/13/contributions-calendar/'
+permalink: '/entry/2017/08/13/contributions-calendar/'
 ---
 # TL;DR
 

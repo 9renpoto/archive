@@ -1,7 +1,7 @@
 ---
 title: "GitGutter便利すぎ"
 date: "2014-07-05"
-path: "/entry/2014/07/05/gitgutter/"
+permalink: "/entry/2014/07/05/gitgutter/"
 categories:
   - "vim"
 ---

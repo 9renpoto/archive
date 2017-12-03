@@ -1,7 +1,7 @@
 ---
 title: "EscでIMEを抜ける"
 date: "2014-07-11"
-path: '/entry/2014/07/11/escape-ime/'
+permalink: '/entry/2014/07/11/escape-ime/'
 ---
 # vimなど使ってるとEscapeしてIMEが残ってるとイライライラ
 

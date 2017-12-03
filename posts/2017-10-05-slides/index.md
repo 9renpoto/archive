@@ -1,7 +1,7 @@
 ---
 title: "JavaScriptが苦手な方にという発表を社内でしました"
 date: '2017-10-05T21:00:00+09:00'
-path: "/entry/2017/10/05/slides/"
+permalink: "/entry/2017/10/05/slides/"
 ---
 # TL;DR
 

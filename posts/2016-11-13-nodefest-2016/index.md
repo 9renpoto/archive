@@ -1,6 +1,6 @@
 ---
 date: '2016-11-13T09:51:54+09:00'
-path: '/entry/2016/11/13/nodefest/'
+permalink: '/entry/2016/11/13/nodefest/'
 title: nodefest 2016 参加メモ
 categories:
   - "javascript"

@@ -1,7 +1,7 @@
 ---
 title: "読書 Team Geek"
 date: "2013-12-25"
-path: "/entry/2013/12/25/team-geak/"
+permalink: "/entry/2013/12/25/team-geak/"
 categories:
   - "book"
 ---

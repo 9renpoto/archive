@@ -1,6 +1,6 @@
 ---
 date: "2016-08-31T21:26:35+09:00"
-path: "/entry/2016/08/31/karma-webpack/"
+permalink: "/entry/2016/08/31/karma-webpack/"
 title: TypeScript のテスト環境を考える
 categories:
   - "typescript"

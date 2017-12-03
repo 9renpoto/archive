@@ -1,7 +1,7 @@
 ---
 title: "TypeScriptにもformatterを"
 date: '2017-08-19T21:48:00+09:00'
-path: "/entry/2017/08/19/prettier-with-typescript/"
+permalink: "/entry/2017/08/19/prettier-with-typescript/"
 ---
 # TL;DR
 

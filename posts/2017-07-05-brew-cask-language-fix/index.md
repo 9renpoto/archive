@@ -1,7 +1,7 @@
 ---
 title: "Fixed: brew cask --language"
 date: '2017-07-05T23:21:51+09:00'
-path: '/entry/2017/07/05/brew-cask-language-fix/'
+permalink: '/entry/2017/07/05/brew-cask-language-fix/'
 categories:
   - "macos"
 ---

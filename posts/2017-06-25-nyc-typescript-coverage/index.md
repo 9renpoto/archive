@@ -1,6 +1,6 @@
 ---
 date: '2017-06-25T13:40:18+09:00'
-path: '/entry/2017/06/25/nyc-typescript-coverage/'
+permalink: '/entry/2017/06/25/nyc-typescript-coverage/'
 title: TypeScript で coverage を計測する方法を変える
 categories:
   - "typescript"

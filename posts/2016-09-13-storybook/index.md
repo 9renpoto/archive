@@ -1,6 +1,6 @@
 ---
 date: '2016-09-13T21:38:08+09:00'
-path: '/entry/2016/09/13/storybook/'
+permalink: '/entry/2016/09/13/storybook/'
 title: storybook を TypeScript で動かす
 categories:
   - "javascript"

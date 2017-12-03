@@ -13,9 +13,9 @@
     eslint-plugin-promise "^3.5.0"
     eslint-plugin-standard "^3.0.1"
 
-"@9renpoto/style@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@9renpoto/style/-/style-0.0.2.tgz#2ac1b2c74e9dafdc889ce630266131d6e8f85388"
+"@9renpoto/style@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@9renpoto/style/-/style-0.0.3.tgz#004e8f8b15c539b8b17d133fff7eeaf68e61c0c8"
   dependencies:
     bulma "^0.6.1"
     classnames "^2.2.5"

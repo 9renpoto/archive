@@ -1,7 +1,7 @@
 ---
 title: "フルスタックと器用貧乏"
 date: '2017-10-24T01:00:00+09:00'
-path: "/entry/2017/10/24/full-stack-engineer/"
+permalink: "/entry/2017/10/24/full-stack-engineer/"
 ---
 # エンジニアにとっての集中と選択
 

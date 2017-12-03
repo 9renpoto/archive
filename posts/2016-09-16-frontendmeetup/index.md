@@ -1,6 +1,6 @@
 ---
 date: '2016-09-16T19:29:30+09:00'
-path: '/entry/2016/09/16/frontend-meetup/'
+permalink: '/entry/2016/09/16/frontend-meetup/'
 title: Frontend Meetup 01 参加メモ
 ---
 # Frontend Meeup \#1

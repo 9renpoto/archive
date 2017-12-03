@@ -1,7 +1,7 @@
 ---
 title: "ブログをgatsbyjsで作り直す"
 date: '2017-08-11T18:37:00+09:00'
-path: '/entry/2017/08/11/gatsby/'
+permalink: '/entry/2017/08/11/gatsby/'
 ---
 # TL;DR
 

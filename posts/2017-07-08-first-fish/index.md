@@ -1,7 +1,7 @@
 ---
 title: "fish shell 入門"
 date: '2017-07-08T21:07:46+09:00'
-path: '/entry/2017/07/08/first-fish/'
+permalink: '/entry/2017/07/08/first-fish/'
 categories:
   - "macos"
   - "fish"

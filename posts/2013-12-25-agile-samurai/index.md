@@ -1,7 +1,7 @@
 ---
 title: "読書 アジャイルサムライ"
 date: "2013-12-25"
-path: '/entry/2013/12/25/agile-samurai/'
+permalink: '/entry/2013/12/25/agile-samurai/'
 categories:
   - "book"
 ---

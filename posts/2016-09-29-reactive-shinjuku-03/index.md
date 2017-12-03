@@ -1,6 +1,6 @@
 ---
 date: '2016-09-29T19:02:35+09:00'
-path: '/entry/2016/09/29/reactive-shinjuku/'
+permalink: '/entry/2016/09/29/reactive-shinjuku/'
 title: 第3回 Reactive System Meetup in 西新宿
 categories:
   - "scala"

@@ -1,6 +1,6 @@
 ---
 date: '2017-01-19T23:51:16+09:00'
-path: '/entry/2017/01/19/sticker/'
+permalink: '/entry/2017/01/19/sticker/'
 title: sticker 選手権
 categories:
   - 'life'

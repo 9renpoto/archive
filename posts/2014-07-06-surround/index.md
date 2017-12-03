@@ -1,7 +1,7 @@
 ---
 title: "括弧の入力には欠かせない"
 date: "2014-07-06"
-path: "/entry/2014/07/06/surround/"
+permalink: "/entry/2014/07/06/surround/"
 categories:
   - "vim"
 ---

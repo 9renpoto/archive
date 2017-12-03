@@ -1,6 +1,6 @@
 ---
 date: '2017-05-07T15:39:59+09:00'
-path: '/entry/2017/05/07/prettier/'
+permalink: '/entry/2017/05/07/prettier/'
 title: prettier 事始め
 categories:
   - "javascript"

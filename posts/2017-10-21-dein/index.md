@@ -1,7 +1,7 @@
 ---
 title: "plug to dein.vim"
 date: '2017-10-21T10:00:00+09:00'
-path: "/entry/2017/10/21/plug-to-dain/"
+permalink: "/entry/2017/10/21/plug-to-dain/"
 ---
 # TL;DR
 

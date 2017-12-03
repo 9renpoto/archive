@@ -1,6 +1,6 @@
 ---
 date: '2017-01-01T10:36:23+09:00'
-path: '/entry/2017/01/01/2016/'
+permalink: '/entry/2017/01/01/2016/'
 title: "2016 and 2017"
 categories:
   - 'life'

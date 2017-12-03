@@ -1,6 +1,6 @@
 ---
 date: '2016-12-17T14:03:55+09:00'
-path: '/entry/2016/12/17/first-nvim/'
+permalink: '/entry/2016/12/17/first-nvim/'
 title: neovim 導入
 categories:
   - "vim"

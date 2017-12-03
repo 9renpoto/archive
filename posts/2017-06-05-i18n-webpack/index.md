@@ -1,6 +1,6 @@
 ---
 date: '2017-06-05T11:08:23+09:00'
-path: '/entry/2017/06/05/i18n-webpack/'
+permalink: '/entry/2017/06/05/i18n-webpack/'
 title: i18n-webpack-plugin所感
 categories:
   - "javascript"

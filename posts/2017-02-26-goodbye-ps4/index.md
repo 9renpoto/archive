@@ -1,6 +1,6 @@
 ---
 date: '2017-02-26T00:48:56+09:00'
-path: '/entry/2017/02/26/goodbye-ps4/'
+permalink: '/entry/2017/02/26/goodbye-ps4/'
 title: PS4破損
 categories:
   - 'life'

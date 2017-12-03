@@ -1,6 +1,6 @@
 ---
 date: '2017-01-03T11:32:03+09:00'
-path: '/entry/2017/01/03/package-json/'
+permalink: '/entry/2017/01/03/package-json/'
 title: 2016 package.json
 categories:
   - 'javascript'

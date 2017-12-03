@@ -1,7 +1,7 @@
 ---
 title: "同じkeyのハッシュのを作る時の操作"
 date: "2014-07-03"
-path: "/entry/2014/07/03/v-line/"
+permalink: "/entry/2014/07/03/v-line/"
 categories:
   - "vim"
 ---

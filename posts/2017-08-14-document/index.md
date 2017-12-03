@@ -1,7 +1,7 @@
 ---
 title: "ドキュメントの価値"
 date: '2017-08-14T22:55:00+09:00'
-path: '/entry/2017/08/14/document/'
+permalink: '/entry/2017/08/14/document/'
 ---
 # TL;DR
 

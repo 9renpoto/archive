@@ -1,6 +1,6 @@
 ---
 date: "2016-07-27T19:31:28+09:00"
-path: "/entry/2016/07/27/riotjs-jp-study/"
+permalink: "/entry/2016/07/27/riotjs-jp-study/"
 title: 'riot.js 勉強会 #1'
 categories:
   - "riot"

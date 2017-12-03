@@ -1,7 +1,7 @@
 ---
 title: "コメントを楽に入れる"
 date: "2014-07-07"
-path: '/entry/2014/07/07/editor-comment/'
+permalink: '/entry/2014/07/07/editor-comment/'
 ---
 # comment
 

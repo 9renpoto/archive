@@ -1,7 +1,7 @@
 ---
 title: "ComponentとContainers"
 date: '2017-10-10T22:30:00+09:00'
-path: "/entry/2017/10/10/component/"
+permalink: "/entry/2017/10/10/component/"
 ---
 # TL;DR
 

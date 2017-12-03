@@ -1,7 +1,7 @@
 ---
 title: "product owner"
 date: '2017-10-23T18:30:00+09:00'
-path: "/entry/2017/10/23/product-owner/"
+permalink: "/entry/2017/10/23/product-owner/"
 ---
 # 個人的な意見
 

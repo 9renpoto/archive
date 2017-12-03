@@ -1,6 +1,6 @@
 ---
 date: '2017-05-11T00:41:58+09:00'
-path: '/entry/2017/05/11/eslint-config-prettier/'
+permalink: '/entry/2017/05/11/eslint-config-prettier/'
 title: prettier < eslint
 categories:
   - "javascript"

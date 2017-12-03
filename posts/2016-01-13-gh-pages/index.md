@@ -1,7 +1,7 @@
 ---
 date: "2016-01-13T22:29:22+09:00"
 title: Update Blog
-path: "/entry/2016/01/13/gh-pages/"
+permalink: "/entry/2016/01/13/gh-pages/"
 categories:
   - 'github'
 ---

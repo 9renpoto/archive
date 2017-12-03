@@ -1,7 +1,7 @@
 ---
 title: "複数環境構築のためにLernaを使う、が"
 date: '2017-10-02T11:00:00+09:00'
-path: "/entry/2017/10/02/monorepo/"
+permalink: "/entry/2017/10/02/monorepo/"
 ---
 # TL;DR
 

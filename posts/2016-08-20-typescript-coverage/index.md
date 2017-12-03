@@ -1,6 +1,6 @@
 ---
 date: "2016-08-20T14:28:25+09:00"
-path: "/entry/2016/08/20/typescript-coverage/"
+permalink: "/entry/2016/08/20/typescript-coverage/"
 title: TypeScript で coverage を計測する
 categories:
   - "typescript"

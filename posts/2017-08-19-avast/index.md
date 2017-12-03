@@ -1,7 +1,7 @@
 ---
 title: "avast network check"
 date: '2017-08-19T21:37:00+09:00'
-path: "/entry/2017/08/19/avast/"
+permalink: "/entry/2017/08/19/avast/"
 ---
 # TL;DR
 

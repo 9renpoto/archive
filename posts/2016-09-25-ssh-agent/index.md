@@ -1,6 +1,6 @@
 ---
 date: '2016-09-25T12:11:46+09:00'
-path: '/entry/2016/09/25/ssh-agent/'
+permalink: '/entry/2016/09/25/ssh-agent/'
 title: macOS キーチェインが動かなくなったので keychain を導入する
 ---
 # macOS updateメモ
