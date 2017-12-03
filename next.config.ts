@@ -1,15 +1,17 @@
-const { default: config } = require('nextein/config')
-const { entries, inCategory } = require('nextein/posts')
+import config from 'nextein/config'
+import { entries, inCategory } from 'nextein/posts'
 
 const getStories = async () => {
   const category = 'stories'
   const all = await entries()
   return all
     .filter(inCategory(category, { includeSubCategories: true }))
-    .map(post => post.data.category)
-    .filter((category, idx, arr) => arr.indexOf(category) === idx)
+    .map((post: any) => post.data.category)
+    .filter(
+      (category: any, idx: number, arr: any) => arr.indexOf(category) === idx
+    )
     .reduce(
-      (prev, entry) => ({
+      (prev: any, entry: any) => ({
         ...prev,
         [`/${entry.replace(`${category}/`, '')}`]: {
           page: '/stories',
@@ -21,10 +23,10 @@ const getStories = async () => {
 }
 
 module.exports = config({
-  webpack: c => {
+  webpack: (c: any) => {
     c.resolve.alias = {
-      react: 'preact-compat/dist/preact-compat',
-      'react-dom': 'preact-compat/dist/preact-compat'
+      react: 'preact-compat',
+      'react-dom': 'preact-compat'
     }
 
     return c

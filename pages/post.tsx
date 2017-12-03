@@ -5,7 +5,11 @@ import React, { PureComponent } from 'react'
 import Hero from '../components/Hero'
 import Nav from '../components/Nav'
 
-class Post extends PureComponent {
+type Props = {
+  post: any;
+}
+
+class Post extends PureComponent<Props> {
   render () {
     const { post } = this.props
     const { data: { tag, title } } = post

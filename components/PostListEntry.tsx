@@ -10,7 +10,7 @@ const PostListEntry = ({ data, content, excerpt = true }) => {
       <h1>
         {/* <a href={url}>{title}</a> */}
         <Link data={data} content={content}>
-          <a>{title}</a>
+          {title}
         </Link>
       </h1>
       <span>{`${new Date(date).toDateString()}`}</span>

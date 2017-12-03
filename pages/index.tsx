@@ -1,13 +1,12 @@
 import React from 'react'
 
 import Head from 'next/head'
-import withPosts, { inCategory, sortByDate } from 'nextein/posts'
+import withPosts, { sortByDate } from 'nextein/posts'
 
-import Hero from '../components/Hero'
 import Nav from '../components/Nav'
 import PostListEntry from '../components/PostListEntry'
 
-const Index = ({ posts }) => {
+const Index = ({ posts }: any) => {
   posts.sort(sortByDate)
 
   return (
@@ -17,10 +16,9 @@ const Index = ({ posts }) => {
         <link rel='stylesheet' href='/static/bundle.css' />
       </Head>
       <Nav />
-      <Hero />
       <section>
-        {posts.map((post, idx) => (
-          <PostListEntry key={`post-${idx}`} {...post} />
+        {posts.map((post: any, i: number) => (
+          <PostListEntry key={i} {...post} />
         ))}
       </section>
     </main>

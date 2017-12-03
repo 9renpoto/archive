@@ -14,6 +14,8 @@
   "devDependencies": {
     "@9renpoto/eslint-config": "^2.3.0",
     "@9renpoto/tslint-config": "^3.4.0",
+    "@types/next": "^2.4.6",
+    "@types/react": "^16.0.25",
     "concurrently": "^3.5.1",
     "cpx": "^1.5.0",
     "eslint": "^4.12.0",
@@ -72,11 +74,11 @@
   },
   "scripts": {
     "assets": "cpx node_modules/@9renpoto/style/lib/*.{css} static",
-    "clean": "rimraf out .next",
+    "clean": "rimraf out .next && find pages/ components/ | grep js | xargs rm",
     "export": "nextein build && nextein export",
     "lint": "run-p lint:*",
-    "lint:ja": "textlint src/pages --cache",
-    "lint:md": "markdownlint src/pages/",
+    "lint:ja": "textlint posts --cache",
+    "lint:md": "markdownlint posts",
     "lint:ts": "tslint {pages,component,post}/**/*.ts{,x}",
     "precommit": "lint-staged",
     "preexport": "npm run assets",
