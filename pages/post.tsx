@@ -5,7 +5,11 @@ import React, { PureComponent } from 'react'
 import Hero from '../components/Hero'
 import Nav from '../components/Nav'
 
-class Post extends PureComponent {
+type Props = {
+  post: any;
+}
+
+class Post extends PureComponent<Props> {
   render () {
     const { post } = this.props
     const { data: { tag, title } } = post
@@ -17,11 +21,12 @@ class Post extends PureComponent {
           <link rel='stylesheet' href='/static/bundle.css' />
         </Head>
         <Nav />
-        <div />
         <Hero title={title} />
         <section className='section'>
           <div className='container is-fluid'>
-            <Content {...post} />
+            <div className='content'>
+              <Content {...post} />
+            </div>
           </div>
         </section>
       </main>

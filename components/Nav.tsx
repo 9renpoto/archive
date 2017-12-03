@@ -5,7 +5,7 @@ import React from 'react'
 export default function Navigation () {
   return (
     <Header
-      Logo={className => (
+      Logo={(className: string) => (
         <Link href='/'>
           <a className={className}>{':-)'}</a>
         </Link>
