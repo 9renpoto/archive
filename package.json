@@ -74,16 +74,18 @@
   },
   "scripts": {
     "assets": "cpx node_modules/@9renpoto/style/lib/*.{css} static",
+    "build": "nextein build",
     "clean": "rimraf out .next && find pages/ components/ | grep js | xargs rm",
-    "export": "nextein build && nextein export",
+    "export": "nextein export",
     "lint": "run-p lint:*",
     "lint:ja": "textlint posts --cache",
     "lint:md": "markdownlint posts",
     "lint:ts": "tslint {pages,component,post}/**/*.ts{,x}",
     "precommit": "lint-staged",
-    "preexport": "npm run assets",
+    "preexport": "run-s clean assets tsc build",
     "prestart": "run-s clean assets",
     "start": "concurrently \"tsc --pretty --watch\" \"nextein\"",
-    "test": "npm run export"
+    "test": "npm run export",
+    "tsc": "tsc"
   }
 }
