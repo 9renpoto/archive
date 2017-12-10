@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "@9renpoto/style": "^0.0.3",
-    "next": "^4.1.4",
+    "next": "^4.2.1",
     "nextein": "^1.0.0",
     "preact": "^8.2.6",
     "preact-compat": "^3.17.0"
@@ -18,12 +18,12 @@
     "@types/react": "^16.0.25",
     "concurrently": "^3.5.1",
     "cpx": "^1.5.0",
-    "eslint": "^4.12.0",
+    "eslint": "^4.13.0",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
     "markdownlint-cli": "^0.5.0",
     "npm-run-all": "^4.1.2",
-    "prettier": "^1.8.2",
+    "prettier": "^1.9.1",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "textlint": "^9.1.1",
@@ -42,7 +42,7 @@
     "textlint-rule-no-mix-dearu-desumasu": "^3.0.3",
     "textlint-rule-no-nfd": "^1.0.1",
     "textlint-rule-preset-ja-spacing": "^2.0.1",
-    "textlint-rule-preset-jtf-style": "^2.3.0",
+    "textlint-rule-preset-jtf-style": "^2.3.1",
     "tslint": "^5.8.0",
     "tslint-react": "^3.2.0",
     "typescript": "^2.6.2"
@@ -75,7 +75,7 @@
   "scripts": {
     "assets": "cpx node_modules/@9renpoto/style/lib/*.{css} static",
     "build": "nextein build",
-    "clean": "rimraf out .next && find pages/ components/ | grep js | xargs rm",
+    "clean": "rimraf out .next &&  find components/ pages/ -type f -name '*.js' -exec rm {} \\;",
     "export": "nextein export",
     "lint": "run-p lint:*",
     "lint:ja": "textlint posts --cache",
