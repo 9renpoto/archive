@@ -3,6 +3,7 @@ import withPost, { Content } from 'nextein/post'
 import React, { PureComponent } from 'react'
 
 import Hero from '../components/Hero'
+import Layout from '../components/Layout'
 import Nav from '../components/Nav'
 
 type Props = {
@@ -14,7 +15,7 @@ class Post extends PureComponent<Props> {
     const { post } = this.props
     const { data: { title } } = post
     return (
-      <main>
+      <Layout>
         <Head>
           <title>{`:-) ${title}`}</title>
           <link rel='stylesheet' href='/static/bundle.css' />
@@ -28,7 +29,7 @@ class Post extends PureComponent<Props> {
             </div>
           </div>
         </section>
-      </main>
+      </Layout>
     )
   }
 }

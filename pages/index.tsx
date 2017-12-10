@@ -3,6 +3,7 @@ import React from 'react'
 import Head from 'next/head'
 import withPosts, { sortByDate } from 'nextein/posts'
 
+import Layout from '../components/Layout'
 import Nav from '../components/Nav'
 import PostListEntry from '../components/PostListEntry'
 
@@ -10,7 +11,7 @@ const Index = ({ posts }: any) => {
   posts.sort(sortByDate)
 
   return (
-    <main>
+    <Layout>
       <Head>
         <title>:-)</title>
         <link rel='stylesheet' href='/static/bundle.css' />
@@ -21,7 +22,7 @@ const Index = ({ posts }: any) => {
           <PostListEntry key={i} {...post} />
         ))}
       </section>
-    </main>
+    </Layout>
   )
 }
 

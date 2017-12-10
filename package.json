@@ -9,7 +9,8 @@
     "next": "^4.2.1",
     "nextein": "^1.0.0",
     "preact": "^8.2.6",
-    "preact-compat": "^3.17.0"
+    "preact-compat": "^3.17.0",
+    "react-ga": "^2.3.5"
   },
   "devDependencies": {
     "@9renpoto/eslint-config": "^2.3.0",
@@ -75,7 +76,7 @@
   "scripts": {
     "assets": "cpx node_modules/@9renpoto/style/lib/*.{css} static",
     "build": "nextein build",
-    "clean": "rimraf out .next && find components/ pages/ -type f -name '*.js' -exec rm {} \\;",
+    "clean": "rimraf out .next && find components/ pages/ utils/ -type f -name '*.js' -exec rm {} \\;",
     "export": "nextein export",
     "lint": "run-p lint:*",
     "lint:ja": "textlint posts --cache",
