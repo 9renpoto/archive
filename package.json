@@ -75,7 +75,7 @@
   "scripts": {
     "assets": "cpx node_modules/@9renpoto/style/lib/*.{css} static",
     "build": "nextein build",
-    "clean": "rimraf out .next && find pages/ components/ | grep js | xargs rm",
+    "clean": "rimraf out .next &&  find components/ pages/ -type f -name '*.js' -exec rm {} \\;",
     "export": "nextein export",
     "lint": "run-p lint:*",
     "lint:ja": "textlint posts --cache",
