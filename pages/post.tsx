@@ -12,8 +12,7 @@ type Props = {
 class Post extends PureComponent<Props> {
   render () {
     const { post } = this.props
-    const { data: { tag, title } } = post
-    const tags = tag ? [].concat(tag) : []
+    const { data: { title } } = post
     return (
       <main>
         <Head>

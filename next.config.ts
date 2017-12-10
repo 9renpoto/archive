@@ -34,7 +34,6 @@ module.exports = config({
   exportPathMap: async () => {
     const stories = await getStories()
     return {
-      '/tags': { page: '/tags' },
       ...stories
     }
   }
