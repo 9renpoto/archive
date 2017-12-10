@@ -8,6 +8,7 @@ cd ..
 find out -not -iwholename '*.git/*' | grep -v out/.git | xargs rm
 npm run export
 cd out
+touch .nojekyll
 git add -A
 git commit -am "Updated"
 git push blog master
