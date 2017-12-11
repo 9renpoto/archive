@@ -23,14 +23,6 @@ const getStories = async () => {
 }
 
 module.exports = config({
-  webpack: (c: any) => {
-    c.resolve.alias = {
-      react: 'preact-compat',
-      'react-dom': 'preact-compat'
-    }
-
-    return c
-  },
   exportPathMap: async () => {
     const stories = await getStories()
     return {
