@@ -9,7 +9,7 @@ category: service
 - goodbye greenkeeper
 - welcome to [dependabot](https://github.com/marketplace/dependabot)
 
-## JavaScript ライブラリを追いかける
+## JavaScriptライブラリを追いかける
 
 - ライブラリ更新サービスは、ライブラリの更新を追いかけるのには必須のサービスだ
 - 薄く依存させCIを回しているだけで簡単に壊れていく
@@ -19,14 +19,14 @@ category: service
 
 - 更新が遅くなってきた
 - lockファイルの登場、メンテナンスの必要性がプラス必要に
-- org 単位でもイケる
+- org単位でもイケる
 
-## Dependabot のいいところ
+## Dependabotのいいところ
 
 - multi language
 - lockファイルも含めて更新
 - コンフリクトはPRの中でサービスが自己解決
-- daily, weekly, monthly の簡単な定期更新
+- daily,weekly,monthlyの簡単な定期更新
 
 ## まとめ
 
