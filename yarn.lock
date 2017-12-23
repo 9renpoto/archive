@@ -6524,9 +6524,9 @@ textlint-rule-max-ten@^2.0.3:
     structured-source "^3.0.2"
     textlint-rule-helper "^2.0.0"
 
-textlint-rule-no-dead-link@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/textlint-rule-no-dead-link/-/textlint-rule-no-dead-link-4.1.0.tgz#672cee9b6824151e6229e5bf5d1183411f9afe05"
+textlint-rule-no-dead-link@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/textlint-rule-no-dead-link/-/textlint-rule-no-dead-link-4.1.1.tgz#47b11df6ba9f2a855c965cc75a19b10a05206f9d"
   dependencies:
     fs-extra "^5.0.0"
     isomorphic-fetch "^2.2.1"
