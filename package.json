@@ -63,8 +63,9 @@
     ],
     "*.md": [
       "prettier --parser markdown --write",
+      "textlint --cache --fix",
       "markdownlint",
-      "textlint --cache --fix"
+      "git add"
     ]
   },
   "main": "index.js",
