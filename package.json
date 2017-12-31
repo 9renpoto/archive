@@ -26,7 +26,7 @@
     "markdownlint-cli": "^0.5.0",
     "npm-run-all": "^4.1.2",
     "prettier": "^1.9.2",
-    "textlint": "^10.1.0",
+    "textlint": "^10.0.0",
     "textlint-rule-incremental-headers": "^0.2.0",
     "textlint-rule-ja-no-mixed-period": "^2.0.0",
     "textlint-rule-ja-no-successive-word": "^1.0.2",
@@ -62,8 +62,10 @@
       "git add"
     ],
     "*.md": [
+      "prettier --parser markdown --write",
+      "textlint --cache --fix",
       "markdownlint",
-      "textlint --cache"
+      "git add"
     ]
   },
   "main": "index.js",

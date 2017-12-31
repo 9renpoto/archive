@@ -7,9 +7,10 @@ categories:
   - "typescript"
   - "javascript"
 ---
+
 # TypeScriptの勉強を頑張ろう
 
-- [9renpoto/javascript/pull/19](https://github.com/9renpoto/js/pull/19)
+* [9renpoto/javascript/pull/19](https://github.com/9renpoto/js/pull/19)
 
 ```json
 {
@@ -27,8 +28,8 @@ categories:
 
 下記を満たす簡単なサンプルを書く。
 
-- 複数module
-- mochaによるテスト
-- power-assertによるテスト
+* 複数module
+* mochaによるテスト
+* power-assertによるテスト
 
 `espower-typescript` が通らないので中身を見て調べる。
