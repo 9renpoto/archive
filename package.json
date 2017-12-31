@@ -17,10 +17,10 @@
     "@9renpoto/eslint-config": "^2.3.0",
     "@9renpoto/tslint-config": "^3.4.0",
     "@types/next": "^2.4.7",
-    "@types/react": "^16.0.25",
+    "@types/react": "^16.0.31",
     "concurrently": "^3.5.1",
     "cpx": "^1.5.0",
-    "eslint": "^4.13.1",
+    "eslint": "^4.14.0",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
     "markdownlint-cli": "^0.5.0",
@@ -32,7 +32,7 @@
     "textlint-rule-ja-no-successive-word": "^1.0.2",
     "textlint-rule-ja-no-weak-phrase": "^1.0.4",
     "textlint-rule-max-ten": "^2.0.3",
-    "textlint-rule-no-dead-link": "^3.3.1",
+    "textlint-rule-no-dead-link": "^4.1.1",
     "textlint-rule-no-double-negative-ja": "^1.0.5",
     "textlint-rule-no-doubled-conjunction": "^1.0.2",
     "textlint-rule-no-doubled-conjunctive-particle-ga": "^1.0.2",
@@ -44,7 +44,7 @@
     "textlint-rule-preset-ja-spacing": "^2.0.1",
     "textlint-rule-preset-jtf-style": "^2.3.1",
     "tslint": "^5.8.0",
-    "tslint-react": "^3.2.0",
+    "tslint-react": "^3.3.3",
     "typescript": "^2.6.2"
   },
   "homepage": "https://github.com/9renpoto/archive#readme",
@@ -62,8 +62,9 @@
       "git add"
     ],
     "*.md": [
+      "prettier --parser markdown --write",
       "markdownlint",
-      "textlint --cache"
+      "textlint --cache --fix"
     ]
   },
   "main": "index.js",
