@@ -2,10 +2,6 @@
 date: "2016-06-23T11:25:56+09:00"
 permalink: "/entry/2016/06/23/typescript-module-test/"
 title: typescript test
-comments: true
-categories:
-  - "typescript"
-  - "javascript"
 ---
 
 # TypeScriptの勉強を頑張ろう
