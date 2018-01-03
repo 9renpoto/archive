@@ -17,7 +17,7 @@
     "@9renpoto/eslint-config": "^2.3.0",
     "@9renpoto/tslint-config": "^3.4.0",
     "@types/next": "^2.4.7",
-    "@types/react": "^16.0.31",
+    "@types/react": "^16.0.32",
     "concurrently": "^3.5.1",
     "cpx": "^1.5.0",
     "eslint": "^4.14.0",
