@@ -2,9 +2,8 @@
 title: "octpress install and setup"
 date: "2012-09-11"
 permalink: "/entry/2012/09/11/octpress-install-and-setup/"
-categories:
-  - "ruby"
 ---
+
 # octpress試す
 
 Octpressの利用を始めたので、簡単にインストール方法と設定、使い方などをメモ。
@@ -26,7 +25,7 @@ git push -u origin master
 
 ### octpressのインストール
 
-先ほど作成した *username.github.com* と同じ階層にoctpressをcloneする。
+先ほど作成した _username.github.com_ と同じ階層にoctpressをcloneする。
 
 ```sh
 git clone git://github.com/imathis/octopress.git octopress
@@ -46,8 +45,7 @@ rake deploy
 
 ### 記事投稿
 
-記事の作成もコマンド1つ
-タイトルは英語で。
+記事の作成もコマンド1つタイトルは英語で。
 
 ```sh
 rake new_post["my-new-page"]
@@ -61,6 +59,5 @@ markdownの勉強にもなるし、GitHubとも仲良くなれるし、なかな
 
 参考文献。
 
-* <http://octopress.org/>
 * <http://tokkonopapa.github.io/blog/2011/12/30/octopress-on-github-and-bitbucket/>
 * <http://blog.glidenote.com/blog/2011/11/07/install-octopress-on-github/>
