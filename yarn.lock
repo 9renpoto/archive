@@ -2778,6 +2778,10 @@ get-stream@3.0.0, get-stream@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
 
+get-url-origin@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/get-url-origin/-/get-url-origin-1.0.1.tgz#edebfcc085433e84c6b32a5738b0996edfd5a7b9"
+
 getpass@^0.1.1:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
@@ -6595,11 +6599,12 @@ textlint-rule-max-ten@^2.0.3:
     structured-source "^3.0.2"
     textlint-rule-helper "^2.0.0"
 
-textlint-rule-no-dead-link@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/textlint-rule-no-dead-link/-/textlint-rule-no-dead-link-4.1.3.tgz#69af8340dc7100fec23b3ce42fae091c3708c56d"
+textlint-rule-no-dead-link@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/textlint-rule-no-dead-link/-/textlint-rule-no-dead-link-4.2.0.tgz#6fb9f570a1aa52029e5ad600bfed7de55419d11a"
   dependencies:
     fs-extra "^5.0.0"
+    get-url-origin "^1.0.1"
     isomorphic-fetch "^2.2.1"
     textlint-rule-helper "^2.0.0"
 
