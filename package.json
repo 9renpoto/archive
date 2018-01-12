@@ -44,7 +44,7 @@
     "textlint-rule-preset-ja-spacing": "^2.0.1",
     "textlint-rule-preset-jtf-style": "^2.3.1",
     "tslint": "^5.9.1",
-    "tslint-react": "^3.3.3",
+    "tslint-react": "^3.4.0",
     "typescript": "^2.6.2"
   },
   "homepage": "https://github.com/9renpoto/archive#readme",
