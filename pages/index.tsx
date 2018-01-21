@@ -14,11 +14,9 @@ const Index = ({ posts }: any) => {
   posts.sort(sortByDate)
 
   const rows = {}
-  posts.map(({ data: { date } }: { data: { date: any } }) => {
-    const d = fecha.format(
-      fecha.parse(date, 'YYYY-MM-DDTHH:mm:ss.ZZ'),
-      'postTime'
-    )
+  posts.map(({ data: { date } }) => {
+    const s: any = fecha.parse(date, 'YYYY-MM-DDTHH:mm:ss.ZZ')
+    const d = fecha.format(s, 'postTime')
     rows[d] = rows[d] || 0
     rows[d]++
   })
