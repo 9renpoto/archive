@@ -5034,9 +5034,9 @@ next@^4.2.3:
     write-file-webpack-plugin "4.2.0"
     xss-filters "1.2.7"
 
-nextein@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/nextein/-/nextein-1.1.2.tgz#0f65d0747c626fc9016c3495d175a14584c427ad"
+nextein@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/nextein/-/nextein-1.2.0.tgz#72007e85d3abafb4ba52e59c18c7c09e1a750019"
   dependencies:
     chokidar "2.0.0"
     cross-spawn "^6.0.0"
