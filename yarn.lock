@@ -5034,14 +5034,15 @@ next@^4.2.3:
     write-file-webpack-plugin "4.2.0"
     xss-filters "1.2.7"
 
-nextein@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/nextein/-/nextein-1.1.0.tgz#3560e14433dab5be73077cda4c4cb7882df3ac23"
+nextein@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/nextein/-/nextein-1.1.2.tgz#0f65d0747c626fc9016c3495d175a14584c427ad"
   dependencies:
     chokidar "2.0.0"
     cross-spawn "^6.0.0"
     frontmatter "0.0.3"
     glob "^7.1.2"
+    hoist-non-react-statics "2.3.1"
     minimist "^1.2.0"
     object.assign "^4.0.4"
     path-match "^1.2.4"
