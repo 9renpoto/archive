@@ -8,7 +8,7 @@
     "@9renpoto/style": "^0.0.3",
     "fecha": "^2.3.2",
     "next": "^4.2.3",
-    "nextein": "^1.1.2",
+    "nextein": "^1.2.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
