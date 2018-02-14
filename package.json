@@ -15,7 +15,7 @@
     "react-ga": "^2.4.1"
   },
   "devDependencies": {
-    "@9renpoto/eslint-config": "^2.4.0",
+    "@9renpoto/eslint-config": "^4.0.0",
     "@9renpoto/textlint-config-ja": "^4.0.0",
     "@9renpoto/tslint-config": "^4.0.0",
     "@types/next": "^2.4.8",
