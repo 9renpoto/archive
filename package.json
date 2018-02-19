@@ -22,7 +22,7 @@
     "@types/react": "^16.0.31",
     "concurrently": "^3.5.1",
     "cpx": "^1.5.0",
-    "eslint": "^4.17.0",
+    "eslint": "^4.18.0",
     "husky": "^0.14.3",
     "lint-staged": "^6.1.1",
     "markdownlint-cli": "^0.7.1",
