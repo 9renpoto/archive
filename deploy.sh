@@ -1,8 +1,10 @@
 #!/bin/bash
 npm run clean
-mkdir -p out && cd out
+mkdir -p out
+cd out
 git init
 git remote add blog git@github.com:9renpoto/9renpoto.github.io.git
+git fetch --prune blog
 git reset --hard blog/master
 cd ..
 find out -not -iwholename '*.git/*' | grep -v out/.git | xargs rm
