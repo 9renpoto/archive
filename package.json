@@ -19,7 +19,7 @@
     "@9renpoto/textlint-config-ja": "^4.0.0",
     "@9renpoto/tslint-config": "^4.0.0",
     "@types/next": "^2.4.8",
-    "@types/react": "^16.0.31",
+    "@types/react": "^16.0.38",
     "concurrently": "^3.5.1",
     "cpx": "^1.5.0",
     "eslint": "^4.18.1",
