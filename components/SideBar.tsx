@@ -1,9 +1,9 @@
 import Link from 'nextein/link'
-import React from 'react'
+import React, { Fragment } from 'react'
 
 export default ({ items }) => {
   return (
-    <div>
+    <Fragment>
       {items.map((post, idx) => {
         return (
           <Link {...post} key={`sidebar-post-${idx}`}>
@@ -11,6 +11,6 @@ export default ({ items }) => {
           </Link>
         )
       })}
-    </div>
+    </Fragment>
   )
 }
