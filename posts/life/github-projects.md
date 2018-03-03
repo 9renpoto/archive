@@ -22,4 +22,4 @@ title: "github projectsが少し良くなっていた"
 
 ## Refs
 
-* <https://github.com/blog/2487-track-the-progress-of-your-projects>
+* <https://blog.github.com/2018-01-04-track-the-progress-of-your-projects/>
