@@ -63,7 +63,7 @@
     "url": "git+ssh://git@github.com/9renpoto/archive.git"
   },
   "scripts": {
-    "assets": "cpx node_modules/@9renpoto/style/lib/*.{css} static",
+    "assets": "cpx -v -u 'node_modules/@9renpoto/style/lib/**/*.css' static",
     "build": "nextein build",
     "clean": "rimraf out .next && find components/ pages/ utils/ -type f -name '*.js' -exec rm {} \\;",
     "export": "nextein export",
