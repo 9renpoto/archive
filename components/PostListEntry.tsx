@@ -1,20 +1,22 @@
 import Link from 'nextein/link'
-import { Content } from 'nextein/post'
-import React from 'react'
+import React, { Fragment } from 'react'
 
-const PostListEntry = ({ data, content, excerpt = true }) => {
+const PostListEntry = ({ data, content }) => {
   const { title, date } = data
 
   return (
-    <article>
-      <h1>
-        <Link data={data} content={content}>
-          {title}
-        </Link>
-      </h1>
-      <span>{`${new Date(date).toDateString()}`}</span>
-      <Content data={data} content={content} excerpt={excerpt} />
-    </article>
+    <Fragment>
+      <div className='tags has-addons'>
+        <span className='tag is-dark'>{`${new Date(
+          date
+        ).toDateString()}`}</span>
+        <span className='tag'>
+          <Link data={data} content={content}>
+            {title}
+          </Link>
+        </span>
+      </div>
+    </Fragment>
   )
 }
 

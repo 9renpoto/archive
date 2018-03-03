@@ -30,19 +30,21 @@ const Index = ({ posts }: any) => {
         <link rel='stylesheet' href='/static/bundle.css' />
       </Head>
       <Nav />
-      <CalendarHeatmap
-        startDate={
-          new Date(today.getFullYear() - 1, today.getMonth(), today.getDay())
-        }
-        endDate={new Date()}
-        values={Object.keys(rows).map(date => ({ count: rows[date], date }))}
-        classForValue={value => `color-github-${value ? value.count : 0}`}
-      />
-      <section>
-        {posts.map((post: any, i: number) => (
-          <PostListEntry key={i} {...post} />
-        ))}
-      </section>
+      <div className='container is-widescreen'>
+        <CalendarHeatmap
+          startDate={
+            new Date(today.getFullYear() - 1, today.getMonth(), today.getDay())
+          }
+          endDate={new Date()}
+          values={Object.keys(rows).map(date => ({ count: rows[date], date }))}
+          classForValue={value => `color-github-${value ? value.count : 0}`}
+        />
+        <section>
+          {posts.map((post: any, i: number) => (
+            <PostListEntry key={i} {...post} />
+          ))}
+        </section>
+      </div>
     </Layout>
   )
 }
