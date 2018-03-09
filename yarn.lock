@@ -5359,9 +5359,9 @@ next@4.2.3:
     write-file-webpack-plugin "4.2.0"
     xss-filters "1.2.7"
 
-nextein@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/nextein/-/nextein-1.2.1.tgz#84bfd458ab092927da77f90ef28b450efd3d9d0e"
+nextein@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/nextein/-/nextein-1.2.2.tgz#b4aee2d4db17eda8ae39ae0c4153f4420dc089c9"
   dependencies:
     chokidar "2.0.2"
     cross-spawn "^6.0.0"
@@ -5377,7 +5377,7 @@ nextein@1.2.1:
     rehype-react "3.0.2"
     remark-parse "5.0.0"
     remark-rehype "3.0.0"
-    uglifyjs-webpack-plugin "1.2.0"
+    uglifyjs-webpack-plugin "1.2.2"
     unfetch "^3.0.0"
     unified "6.1.6"
     unist-util-select "^1.5.0"
@@ -8056,9 +8056,9 @@ uglify-to-browserify@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
 
-uglifyjs-webpack-plugin@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.2.0.tgz#f706fa4c655000a086b4a97c7d835ed0f6e9b0ef"
+uglifyjs-webpack-plugin@1.2.2, uglifyjs-webpack-plugin@^1.1.1:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.2.2.tgz#e7516d4367afdb715c3847841eb46f94c45ca2b9"
   dependencies:
     cacache "^10.0.1"
     find-cache-dir "^1.0.0"
@@ -8076,19 +8076,6 @@ uglifyjs-webpack-plugin@^0.4.6:
     source-map "^0.5.6"
     uglify-js "^2.8.29"
     webpack-sources "^1.0.1"
-
-uglifyjs-webpack-plugin@^1.1.1:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.2.2.tgz#e7516d4367afdb715c3847841eb46f94c45ca2b9"
-  dependencies:
-    cacache "^10.0.1"
-    find-cache-dir "^1.0.0"
-    schema-utils "^0.4.2"
-    serialize-javascript "^1.4.0"
-    source-map "^0.6.1"
-    uglify-es "^3.3.4"
-    webpack-sources "^1.1.0"
-    worker-farm "^1.5.2"
 
 uid-number@0.0.5:
   version "0.0.5"
