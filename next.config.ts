@@ -22,7 +22,7 @@ const getStories = async () => {
     )
 }
 
-module.exports = config({
+export default config({
   exportPathMap: async () => {
     const stories = await getStories()
     return {
