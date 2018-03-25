@@ -28,6 +28,7 @@ categories:
 <https://github.com/barakchamo>
 
 * graph QL
+
   ```js
   user(id: 1) {
     id,
@@ -35,6 +36,7 @@ categories:
     last_name
   }
   ```
+
 * fragment
 
 ## The Seif Project
