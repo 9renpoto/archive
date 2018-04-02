@@ -29,7 +29,7 @@
     "markdownlint-cli": "0.8.1",
     "npm-run-all": "4.1.2",
     "prettier-eslint-cli": "4.7.1",
-    "textlint": "10.1.5",
+    "textlint": "10.2.1",
     "tslint": "5.9.1",
     "tslint-react": "3.5.1",
     "typescript": "2.8.1",
