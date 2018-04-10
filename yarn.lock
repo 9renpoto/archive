@@ -219,9 +219,9 @@
   version "3.5.19"
   resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.19.tgz#1a47308819ac2d1d6d1ca4f5d800ac84924100de"
 
-"@types/next@2.4.8":
-  version "2.4.8"
-  resolved "https://registry.yarnpkg.com/@types/next/-/next-2.4.8.tgz#a8105cb67bd0871d241ab987d275e90fb1061327"
+"@types/next@2.4.9":
+  version "2.4.9"
+  resolved "https://registry.yarnpkg.com/@types/next/-/next-2.4.9.tgz#d05078e1495560b984e7eea71723b1e94f42c0df"
   dependencies:
     "@types/node" "*"
     "@types/react" "*"
