@@ -7,7 +7,7 @@
   "dependencies": {
     "@9renpoto/style": "0.0.3",
     "fecha": "2.3.3",
-    "next": "4.2.3",
+    "next": "5.1.0",
     "nextein": "1.2.3",
     "prop-types": "15.6.1",
     "raven-js": "3.24.1",
