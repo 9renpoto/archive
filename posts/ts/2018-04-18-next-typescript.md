@@ -18,4 +18,4 @@ npm i  @zeit/next-typescript
 ## Refs
 
 * <https://github.com/zeit/next-plugins/tree/master/packages/next-typescript>
-* <https://github.com/9renpoto/archive/pull/141>
+* <https://github.com/9renpoto/archive/pull/140>
