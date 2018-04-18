@@ -14,3 +14,8 @@ npm i  @zeit/next-typescript
 
 * TypeScriptを使うために一度手前でtscしたりしてましたが、何時のまにか念願のサポートが入った
 * 実際webpackのオプションが設定できるのだからできて当然だと思っていたが公式から来ると嬉しい
+
+## Refs
+
+* <https://github.com/zeit/next-plugins/tree/master/packages/next-typescript>
+* <https://github.com/9renpoto/archive/pull/141>
