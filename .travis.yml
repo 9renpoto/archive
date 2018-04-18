@@ -3,6 +3,7 @@ sudo: false
 node_js: stable
 env:
   matrix:
+  - CMD=build
   - CMD=test
   - CMD=lint
 matrix:
