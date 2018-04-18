@@ -11,7 +11,6 @@
     "nextein": "1.2.3",
     "prop-types": "15.6.1",
     "raven-js": "3.24.2",
-    "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-ga": "2.4.1"
   },
@@ -30,6 +29,7 @@
     "markdownlint-cli": "0.8.1",
     "npm-run-all": "4.1.2",
     "prettier-eslint-cli": "4.7.1",
+    "size-limit": "0.17.0",
     "textlint": "10.2.1",
     "tslint": "5.9.1",
     "tslint-react": "3.5.1",
@@ -65,7 +65,7 @@
   },
   "scripts": {
     "assets": "cpx -v -u 'node_modules/@9renpoto/style/lib/**/*.css' static",
-    "build": "nextein build",
+    "build": "nextein build && size-limit",
     "clean": "rimraf out .next && find components/ pages/ utils/ -type f -name '*.jsx' -exec rm {} \\;",
     "export": "nextein export",
     "lint": "run-p lint:*",
@@ -77,5 +77,11 @@
     "prestart": "run-s clean assets",
     "start": "nextein",
     "test": "npm run export"
-  }
+  },
+  "size-limit": [
+    {
+      "path": ".next/main.js",
+      "limit": "150 KB"
+    }
+  ]
 }
