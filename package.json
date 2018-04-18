@@ -7,7 +7,7 @@
   "dependencies": {
     "@9renpoto/style": "0.0.3",
     "fecha": "2.3.3",
-    "next": "4.2.3",
+    "next": "5.1.0",
     "nextein": "1.2.3",
     "prop-types": "15.6.1",
     "raven-js": "3.24.1",
@@ -21,7 +21,7 @@
     "@9renpoto/tslint-config": "4.0.0",
     "@types/next": "2.4.9",
     "@types/react": "16.0.41",
-    "concurrently": "3.5.1",
+    "@zeit/next-typescript": "^0.1.1",
     "cpx": "1.5.0",
     "eslint": "4.19.1",
     "husky": "0.14.3",
@@ -42,7 +42,6 @@
   "lint-staged": {
     "*.js": [
       "prettier-eslint --write",
-      "eslint",
       "git add"
     ],
     "*.{ts,tsx}": [
@@ -53,7 +52,6 @@
     "*.md": [
       "prettier --write",
       "textlint --fix",
-      "textlint",
       "markdownlint",
       "git add"
     ]
@@ -67,17 +65,16 @@
   "scripts": {
     "assets": "cpx -v -u 'node_modules/@9renpoto/style/lib/**/*.css' static",
     "build": "nextein build",
-    "clean": "rimraf out .next && find components/ pages/ utils/ -type f -name '*.js' -exec rm {} \\;",
+    "clean": "rimraf out .next && find components/ pages/ utils/ -type f -name '*.jsx' -exec rm {} \\;",
     "export": "nextein export",
     "lint": "run-p lint:*",
     "lint:ja": "textlint posts --cache",
     "lint:md": "markdownlint posts",
     "lint:ts": "tslint {pages,component,post}/**/*.ts{,x}",
     "precommit": "lint-staged",
-    "preexport": "run-s assets tsc build",
+    "preexport": "run-p assets build",
     "prestart": "run-s clean assets",
-    "start": "concurrently \"tsc --pretty --watch\" \"nextein\"",
-    "test": "npm run export",
-    "tsc": "tsc"
+    "start": "nextein",
+    "test": "npm run export"
   }
 }

@@ -1,17 +1,16 @@
-import config from 'nextein/config'
-import { entries, inCategory } from 'nextein/posts'
+const config = require('nextein/config').default
+const withTypescript = require('@zeit/next-typescript')
+const { entries, inCategory } = require('nextein/posts')
 
 const getStories = async () => {
   const category = 'stories'
   const all = await entries()
   return all
     .filter(inCategory(category, { includeSubCategories: true }))
-    .map((post: any) => post.data.category)
-    .filter(
-      (category: any, idx: number, arr: any) => arr.indexOf(category) === idx
-    )
+    .map(post => post.data.category)
+    .filter((category, idx, arr) => arr.indexOf(category) === idx)
     .reduce(
-      (prev: any, entry: any) => ({
+      (prev, entry) => ({
         ...prev,
         [`/${entry.replace(`${category}/`, '')}`]: {
           page: '/stories',
@@ -22,7 +21,8 @@ const getStories = async () => {
     )
 }
 
-export default config({
+module.exports = config({
+  ...withTypescript(),
   exportPathMap: async () => {
     const stories = await getStories()
     return {

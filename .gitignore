@@ -1,6 +1,8 @@
 .textlintcache
 *.css
 *.js
+*.jsx
+*.map
 .next/
 out/
 

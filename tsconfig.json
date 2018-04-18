@@ -2,17 +2,27 @@
   "compilerOptions": {
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "strictNullChecks": true,
-    "noImplicitThis": true,
-    "removeComments": true,
     "alwaysStrict": true,
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "moduleResolution": "node",
-    "jsx": "react-native",
-    "target": "es2017",
-    "module": "commonjs"
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "es5",
+      "es2016",
+      "es6"
+    ]
   }
 }
