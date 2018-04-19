@@ -33,7 +33,7 @@
     "textlint": "10.2.1",
     "tslint": "5.9.1",
     "tslint-react": "3.5.1",
-    "typescript": "2.8.1",
+    "typescript": "2.8.3",
     "typescript-eslint-parser": "15.0.0",
     "webpack": "4.6.0"
   },
