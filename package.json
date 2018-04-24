@@ -53,6 +53,7 @@
     "*.md": [
       "prettier --write",
       "textlint --fix",
+      "textlint",
       "markdownlint",
       "git add"
     ]
