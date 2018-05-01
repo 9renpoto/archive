@@ -5252,9 +5252,9 @@ next@5.1.0:
     webpack-sources "1.1.0"
     write-file-webpack-plugin "4.2.0"
 
-nextein@1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/nextein/-/nextein-1.2.3.tgz#741a55ffc63219cd35242ca58fb25783ed5a5c6f"
+nextein@1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/nextein/-/nextein-1.2.4.tgz#6b550ebba50f2a9a4d4e2bcff536a8ff405aac99"
   dependencies:
     chokidar "2.0.3"
     cross-spawn "^6.0.0"
@@ -5264,13 +5264,13 @@ nextein@1.2.3:
     minimist "^1.2.0"
     object.assign "^4.0.4"
     path-match "^1.2.4"
-    path-to-regexp "2.2.0"
+    path-to-regexp "2.2.1"
     pkg-up "^2.0.0"
     rehype-raw "2.0.0"
     rehype-react "3.0.2"
     remark-parse "5.0.0"
     remark-rehype "3.0.0"
-    uglifyjs-webpack-plugin "1.2.4"
+    uglifyjs-webpack-plugin "1.2.5"
     unfetch "^3.0.0"
     unified "6.1.6"
     unist-util-select "^1.5.0"
@@ -5726,9 +5726,9 @@ path-to-regexp@2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-2.1.0.tgz#7e30f9f5b134bd6a28ffc2e3ef1e47075ac5259b"
 
-path-to-regexp@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-2.2.0.tgz#80f0ff45c1e0e641da74df313644eaf115050972"
+path-to-regexp@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-2.2.1.tgz#90b617025a16381a879bc82a38d4e8bdeb2bcf45"
 
 path-to-regexp@^1.0.0:
   version "1.7.0"
@@ -8059,9 +8059,9 @@ uglifyjs-webpack-plugin@1.1.6:
     webpack-sources "^1.1.0"
     worker-farm "^1.5.2"
 
-uglifyjs-webpack-plugin@1.2.4, uglifyjs-webpack-plugin@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.2.4.tgz#5eec941b2e9b8538be0a20fc6eda25b14c7c1043"
+uglifyjs-webpack-plugin@1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.2.5.tgz#2ef8387c8f1a903ec5e44fa36f9f3cbdcea67641"
   dependencies:
     cacache "^10.0.4"
     find-cache-dir "^1.0.0"
@@ -8079,6 +8079,19 @@ uglifyjs-webpack-plugin@^0.4.6:
     source-map "^0.5.6"
     uglify-js "^2.8.29"
     webpack-sources "^1.0.1"
+
+uglifyjs-webpack-plugin@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.2.4.tgz#5eec941b2e9b8538be0a20fc6eda25b14c7c1043"
+  dependencies:
+    cacache "^10.0.4"
+    find-cache-dir "^1.0.0"
+    schema-utils "^0.4.5"
+    serialize-javascript "^1.4.0"
+    source-map "^0.6.1"
+    uglify-es "^3.3.4"
+    webpack-sources "^1.1.0"
+    worker-farm "^1.5.2"
 
 uid-number@^0.0.6:
   version "0.0.6"
