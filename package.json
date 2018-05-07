@@ -79,8 +79,8 @@
   },
   "size-limit": [
     {
-      "path": ".next/main.js",
-      "limit": "150 KB"
+      "path": ".next/static/commons/main-*.js",
+      "limit": "90 KB"
     }
   ]
 }
