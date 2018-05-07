@@ -7,7 +7,7 @@
   "dependencies": {
     "@9renpoto/style": "0.0.3",
     "fecha": "2.3.3",
-    "next": "5.1.0",
+    "next": "6.0.0",
     "nextein": "1.2.4",
     "prop-types": "15.6.1",
     "raven-js": "3.24.2",
@@ -21,8 +21,7 @@
     "@9renpoto/tslint-config": "4.0.0",
     "@types/next": "2.4.9",
     "@types/react": "16.3.13",
-    "@zeit/next-typescript": "0.1.1",
-    "cpx": "1.5.0",
+    "@zeit/next-typescript": "0.1.1", "cpx": "1.5.0",
     "eslint": "4.19.1",
     "husky": "0.14.3",
     "lint-staged": "7.1.0",
@@ -34,8 +33,7 @@
     "tslint": "5.10.0",
     "tslint-react": "3.5.1",
     "typescript": "2.8.3",
-    "typescript-eslint-parser": "15.0.0",
-    "webpack": "4.6.0"
+    "typescript-eslint-parser": "15.0.0"
   },
   "homepage": "https://github.com/9renpoto/archive#readme",
   "keywords": [],
@@ -81,8 +79,8 @@
   },
   "size-limit": [
     {
-      "path": ".next/main.js",
-      "limit": "150 KB"
+      "path": ".next/static/commons/main-*.js",
+      "limit": "90 KB"
     }
   ]
 }
