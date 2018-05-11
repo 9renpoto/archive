@@ -10,7 +10,7 @@
     "next": "6.0.0",
     "nextein": "1.2.4",
     "prop-types": "15.6.1",
-    "raven-js": "3.25.0",
+    "raven-js": "3.25.1",
     "react-dom": "16.3.2",
     "react-ga": "2.5.0"
   },
