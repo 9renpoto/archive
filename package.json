@@ -12,7 +12,7 @@
     "prop-types": "15.6.1",
     "raven-js": "3.25.1",
     "react-dom": "16.3.2",
-    "react-ga": "2.5.0"
+    "react-ga": "2.5.2"
   },
   "devDependencies": {
     "@9renpoto/eslint-config": "4.4.0",
