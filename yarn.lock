@@ -5209,9 +5209,9 @@ next@6.0.3:
     webpack-sources "1.1.0"
     write-file-webpack-plugin "4.2.0"
 
-nextein@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/nextein/-/nextein-1.3.0.tgz#e47f90c87869740f41278fb5f4dff076d790219a"
+nextein@1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/nextein/-/nextein-1.3.1.tgz#3b3ea3ae61b6167afc7d84cb065e3cb1cc70b63d"
   dependencies:
     chokidar "2.0.3"
     cross-spawn "^6.0.0"
