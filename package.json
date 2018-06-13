@@ -33,7 +33,7 @@
     "textlint": "10.2.1",
     "tslint": "5.10.0",
     "tslint-react": "3.6.0",
-    "typescript": "2.9.1",
+    "typescript": "2.9.2",
     "typescript-eslint-parser": "16.0.0"
   },
   "homepage": "https://github.com/9renpoto/archive#readme",
