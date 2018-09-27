@@ -1,9 +1,10 @@
 ---
 title: "dependabotのすすめ"
-date: '2017-12-12T22:53:00+09:00'
+date: "2017-12-12T22:53:00+09:00"
 permalink: "/entry/2017/12/12/dependabot/"
 category: service
 ---
+
 # TL;DR
 
 - goodbye greenkeeper
@@ -31,5 +32,3 @@ category: service
 ## まとめ
 
 - 便利なサービスに引っ越していきたい
-
-[![どうする スクライド](http://tiqav.com/3x6.th.jpg)](http://tiqav.com/3x6)

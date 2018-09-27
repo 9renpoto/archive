@@ -1,11 +1,12 @@
 ---
 title: "fish shell 入門"
-date: '2017-07-08T21:07:46+09:00'
-permalink: '/entry/2017/07/08/first-fish/'
+date: "2017-07-08T21:07:46+09:00"
+permalink: "/entry/2017/07/08/first-fish/"
 categories:
   - "macos"
   - "fish"
 ---
+
 # TL;DR
 
 - fishshellに移行した
@@ -27,7 +28,7 @@ categories:
 
 - <https://muunyblue.github.io/7476533956dd3568c1d787c5d33a547f.html>
 - <https://blog.odoruinu.net/2017/02/24/changed-my-shell-from-zsh-to-fish/>
-- <https://github.com/fisherman/fisherman>
+- <https://github.com/jorgebucaran/fisher>
 
 ## 調べてないこと
 
