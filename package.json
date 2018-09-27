@@ -72,7 +72,6 @@
     "lint:ja": "textlint posts --cache",
     "lint:md": "markdownlint posts",
     "lint:ts": "tslint {pages,component,post}/**/*.ts{,x}",
-    "precommit": "lint-staged",
     "preexport": "run-p assets build",
     "prestart": "run-s clean assets",
     "start": "nextein",
@@ -91,5 +90,10 @@
       "path": ".next/static/runtime/webpack-*.js",
       "limit": "500 B"
     }
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
 }

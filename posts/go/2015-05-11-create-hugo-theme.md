@@ -5,6 +5,7 @@ title: create hugo theme
 categories:
   - "hugo"
 ---
+
 # TL;DR
 
 - ブログを `octpress` から `hugo` へ移行しました
@@ -36,7 +37,7 @@ $ hugo new theme foo
     └── theme.toml
 ```
 
-[Document](http://gohugo.io/templates/) がよくまとまっていますので参考に。
+[Document](https://gohugo.io/templates/) がよくまとまっていますので参考に。
 
 ## TODO
 
