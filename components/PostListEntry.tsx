@@ -12,7 +12,7 @@ const PostListEntry = ({ data, content }) => {
         ).toDateString()}`}</span>
         <span className='tag'>
           <Link data={data} content={content}>
-            {title}
+            <a>{title}</a>
           </Link>
         </span>
       </div>
