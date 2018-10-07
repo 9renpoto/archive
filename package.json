@@ -84,7 +84,7 @@
     },
     {
       "path": ".next/static/runtime/main-*.js",
-      "limit": "5.5 KB"
+      "limit": "5.7 KB"
     },
     {
       "path": ".next/static/runtime/webpack-*.js",
