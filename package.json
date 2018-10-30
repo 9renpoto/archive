@@ -11,7 +11,7 @@
     "nextein": "2.0.0",
     "prop-types": "15.6.2",
     "raven-js": "3.27.0",
-    "react-dom": "16.5.2",
+    "react-dom": "16.6.0",
     "react-ga": "2.5.3"
   },
   "devDependencies": {
@@ -80,11 +80,11 @@
   "size-limit": [
     {
       "path": ".next/static/chunks/commons.*.js",
-      "limit": "76 KB"
+      "limit": "151 KB"
     },
     {
       "path": ".next/static/runtime/main-*.js",
-      "limit": "5.7 KB"
+      "limit": "7 KB"
     },
     {
       "path": ".next/static/runtime/webpack-*.js",
