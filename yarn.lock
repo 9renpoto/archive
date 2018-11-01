@@ -3566,10 +3566,10 @@ fault@^1.0.1:
   dependencies:
     format "^0.2.2"
 
-fecha@2.3.3:
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/fecha/-/fecha-2.3.3.tgz#948e74157df1a32fd1b12c3a3c3cdcb6ec9d96cd"
-  integrity sha512-lUGBnIamTAwk4znq5BcqsDaxSmZ9nDVJaij6NvRt/Tg4R69gERA+otPKbS86ROw9nxVMw2/mp1fnaiWqbs6Sdg==
+fecha@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/fecha/-/fecha-3.0.0.tgz#0adf9e8d290e8893601648a9cce6d5822c69fb6e"
+  integrity sha512-i3nnb97wQrzRd0686cJ4tT5GJT15lfkvNW+GfUbGdMCeKpm0fHfXLI0PR0nHkLG3IamxdLEWK8U1eN8y1hgTog==
 
 figgy-pudding@^3.1.0, figgy-pudding@^3.5.1:
   version "3.5.1"
