@@ -20,9 +20,7 @@
     "target": "esnext",
     "lib": [
       "dom",
-      "es5",
-      "es2016",
-      "es6"
+      "esnext"
     ]
   }
 }
