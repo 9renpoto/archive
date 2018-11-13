@@ -34,7 +34,7 @@
     "tslint": "5.11.0",
     "tslint-react": "3.6.0",
     "typescript": "3.1.6",
-    "typescript-eslint-parser": "20.1.1"
+    "typescript-eslint-parser": "21.0.0"
   },
   "homepage": "https://github.com/9renpoto/archive#readme",
   "keywords": [],
