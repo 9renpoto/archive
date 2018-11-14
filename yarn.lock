@@ -31,10 +31,10 @@
     react-calendar-heatmap "^1.6.1"
     react-fa "^5.0.0"
 
-"@9renpoto/textlint-config-ja@4.6.0":
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/@9renpoto/textlint-config-ja/-/textlint-config-ja-4.6.0.tgz#92981a8dcfb2ac5d526ffb0a37711a0d951f3e3b"
-  integrity sha512-mUIyr4JjwZWciyTy+E+P+ezJyDFFOxlCO9W3PcIRkRsp6b+hohdcMVpm0E28go/rrb9UBB589oLUUg017v+NWg==
+"@9renpoto/textlint-config-ja@4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@9renpoto/textlint-config-ja/-/textlint-config-ja-4.7.0.tgz#4948a3032c63e89db4143ea1b7e5c1242fdce443"
+  integrity sha512-7xao0nDT5AVv0gzLKt0U+Fpglrse/JMn4DoUHJQFpiVWqpuINEFHuswM4qLXFS5KDm8VdV5HioOY7xS+pu2PHg==
   dependencies:
     textlint-rule-incremental-headers "^0.2.0"
     textlint-rule-ja-no-mixed-period "^2.0.0"
