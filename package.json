@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@9renpoto/eslint-config": "4.7.0",
-    "@9renpoto/eslint-config-react": "4.6.0",
+    "@9renpoto/eslint-config-react": "4.7.0",
     "@9renpoto/textlint-config-ja": "4.7.0",
     "@9renpoto/tslint-config": "4.6.0",
     "@types/next": "7.0.5",
