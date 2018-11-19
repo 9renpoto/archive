@@ -7,17 +7,20 @@ import Layout from '../components/Layout'
 import Nav from '../components/Nav'
 
 type Props = {
-  post: any;
+  post: any
 }
 
 class Post extends PureComponent<Props> {
   render () {
     const { post } = this.props
-    const { data: { title } } = post
+    const {
+      data: { title }
+    } = post
     return (
       <Layout>
         <Head>
           <title>{`:-) ${title}`}</title>
+          <meta name='viewport' content='width=device-width, initial-scale=1' />
           <link rel='stylesheet' href='/static/bundle.css' />
         </Head>
         <Nav />

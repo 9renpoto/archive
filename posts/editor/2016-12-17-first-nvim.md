@@ -1,11 +1,12 @@
 ---
-date: '2016-12-17T14:03:55+09:00'
-permalink: '/entry/2016/12/17/first-nvim/'
+date: "2016-12-17T14:03:55+09:00"
+permalink: "/entry/2016/12/17/first-nvim/"
 title: neovim 導入
 categories:
   - "vim"
   - "neovim"
 ---
+
 # TL;DR
 
 - neovimは早いように感じる
@@ -37,4 +38,4 @@ neocompleteが使えないようだがこの際プラグインを見直したい
 
 ## Refs
 
-- <http://giginet.hateblo.jp/entry/2015/11/24/203823>
+- <https://giginet.hateblo.jp/entry/2015/11/24/203823>

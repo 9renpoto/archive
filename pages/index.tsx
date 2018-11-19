@@ -3,14 +3,13 @@ import Head from 'next/head'
 import withPosts, { sortByDate } from 'nextein/posts'
 import React from 'react'
 import CalendarHeatmap from 'react-calendar-heatmap'
-
 import Layout from '../components/Layout'
 import Nav from '../components/Nav'
 import PostListEntry from '../components/PostListEntry'
 
 fecha.masks.postTime = 'YYYY-MM-DD'
 
-const Index = ({ posts }: any) => {
+const Index = ({ posts }) => {
   posts.sort(sortByDate)
 
   const rows = {}
@@ -27,6 +26,7 @@ const Index = ({ posts }: any) => {
     <Layout>
       <Head>
         <title>:-)</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='stylesheet' href='/static/bundle.css' />
       </Head>
       <Nav />
@@ -40,7 +40,7 @@ const Index = ({ posts }: any) => {
           classForValue={value => `color-github-${value ? value.count : 0}`}
         />
         <section>
-          {posts.map((post: any, i: number) => (
+          {posts.map((post, i) => (
             <PostListEntry key={i} {...post} />
           ))}
         </section>
