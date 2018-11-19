@@ -32,6 +32,7 @@
     "prettier-eslint-cli": "4.7.1",
     "size-limit": "0.21.0",
     "textlint": "11.0.1",
+    "textlint-filter-rule-comments": "1.2.2",
     "tslint": "5.11.0",
     "tslint-react": "3.6.0",
     "typescript": "3.1.6",
