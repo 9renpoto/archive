@@ -6,12 +6,12 @@
   },
   "dependencies": {
     "@9renpoto/style": "0.0.3",
+    "@sentry/browser": "4.3.4",
     "@types/next": "7.0.5",
     "fecha": "3.0.0",
     "next": "7.0.2",
     "nextein": "2.1.2",
     "prop-types": "15.6.2",
-    "raven-js": "3.27.0",
     "react-dom": "16.6.3",
     "react-ga": "2.5.3"
   },
@@ -82,7 +82,7 @@
   "size-limit": [
     {
       "path": ".next/static/chunks/commons.*.js",
-      "limit": "151 KB"
+      "limit": "100 KB"
     },
     {
       "path": ".next/static/runtime/main-*.js",

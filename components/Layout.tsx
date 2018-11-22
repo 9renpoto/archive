@@ -1,4 +1,9 @@
-import * as Raven from 'raven-js'
+import {
+  captureException,
+  init,
+  showReportDialog,
+  withScope
+} from '@sentry/browser'
 import React, { PureComponent } from 'react'
 import { initGA, logPageView } from '../utils/analytics'
 
@@ -7,15 +12,18 @@ type Props = {}
 export default class Layout extends PureComponent<Props, { error: any }> {
   constructor (props: Props) {
     super(props)
-    Raven.config(
-      'https://f618bc349b614299939433b00e4be281@sentry.io/103445'
-    ).install()
+    init({
+      dsn: 'https://f618bc349b614299939433b00e4be281@sentry.io/103445'
+    })
     this.state = { error: null }
   }
 
   componentDidCatch (error, errorInfo) {
     this.setState({ error })
-    Raven.captureException(error, { extra: errorInfo })
+    withScope(scope => {
+      Object.keys(errorInfo).forEach(key => scope.setExtra(key, errorInfo[key]))
+      captureException(error)
+    })
   }
 
   componentDidMount () {
@@ -30,10 +38,7 @@ export default class Layout extends PureComponent<Props, { error: any }> {
   render () {
     if (this.state.error) {
       return (
-        <div
-          className='snap'
-          onClick={() => Raven.lastEventId() && Raven.showReportDialog()}
-        >
+        <div className='snap' onClick={() => showReportDialog()}>
           <img src={'https://gph.is/2d6qsYy'} />
           <p>We're sorry — something's gone wrong.</p>
           <p>Our team has been notified, but click here fill out a report.</p>
