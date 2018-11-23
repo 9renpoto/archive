@@ -1,7 +1,6 @@
-import Head from 'next/head'
 import withPost, { Content } from 'nextein/post'
 import React, { PureComponent } from 'react'
-
+import Head from '../components/Head'
 import Hero from '../components/Hero'
 import Layout from '../components/Layout'
 import Nav from '../components/Nav'
@@ -18,11 +17,7 @@ class Post extends PureComponent<Props> {
     } = post
     return (
       <Layout>
-        <Head>
-          <title>{`:-) ${title}`}</title>
-          <meta name='viewport' content='width=device-width, initial-scale=1' />
-          <link rel='stylesheet' href='/static/bundle.css' />
-        </Head>
+        <Head title={title} />
         <Nav />
         <Hero title={title} />
         <section className='section'>

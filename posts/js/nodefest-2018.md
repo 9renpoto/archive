@@ -12,6 +12,7 @@ categories:
 ## Offline-First Collaborative Data Structures
 
 - Collaborative P2P
+- <https://nodefest.jp/2018/schedule.html#conference-1-9>
 - <https://github.com/mafintosh/noise-network>
 - <https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%83%E3%82%B7%E3%83%A5%E6%9C%A8>
 - <https://keens.github.io/slide/HAMT/>
@@ -19,8 +20,9 @@ categories:
 - <https://github.com/mafintosh/ims>
 - <https://gaiax-blockchain.com/merkle-tree>
 
-## Node.js: The Road to Workers
+## `Node.js`: The Road to Workers
 
+- <https://nodefest.jp/2018/schedule.html#conference-1-4>
 - slide: <https://addaleax.net/workers-nodefest/#1>
 - <https://github.com/audreyt/node-webworker-threads>
 - <https://twitter.com/yosuke_furukawa/status/1065793206204325888>
@@ -33,3 +35,12 @@ categories:
 - <https://github.com/Microsoft/napajs>
   - shared js object
 - <https://twitter.com/yosuke_furukawa/status/1065799544351285249>
+
+## Diagnose your Node.js app
+
+- <https://nodefest.jp/2018/schedule.html#conference-2-3>
+- <https://darai0512.github.io/nodefest2018/index.html#/>
+
+## State of SEO for SPA
+
+- <https://nodefest.jp/2018/schedule.html#conference-2-4>
