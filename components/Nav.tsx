@@ -10,8 +10,8 @@ export default function Navigation () {
           <a className={className}>{':-)'}</a>
         </Link>
       )}
-      titles={[]}
-      baseUrl='https://9renpoto.github.io/entry'
+      titles={['slides']}
+      baseUrl='https://9renpoto.github.io/'
     />
   )
 }
