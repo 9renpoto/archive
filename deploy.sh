@@ -11,6 +11,7 @@ find out -not -iwholename '*.git/*' | grep -v out/.git | xargs rm
 npm run export
 cd out
 touch .nojekyll
+cp ../google59d9327a5a2a34aa.html .
 git add -A
 git commit -am "Updated"
 git push blog master

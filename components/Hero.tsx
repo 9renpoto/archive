@@ -1,10 +1,10 @@
 import React from 'react'
 
 type Props = {
-  title: string;
+  title: string
 }
 
-export default function Hello ({ title }: Props) {
+export default function Hero ({ title }: Props) {
   return (
     <section className='hero is-primary'>
       <div className='hero-body'>

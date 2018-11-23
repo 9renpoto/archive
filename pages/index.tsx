@@ -1,8 +1,8 @@
 import * as fecha from 'fecha'
-import Head from 'next/head'
 import withPosts, { sortByDate } from 'nextein/posts'
 import React from 'react'
 import CalendarHeatmap from 'react-calendar-heatmap'
+import Head from '../components/Head'
 import Layout from '../components/Layout'
 import Nav from '../components/Nav'
 import PostListEntry from '../components/PostListEntry'
@@ -14,7 +14,7 @@ const Index = ({ posts }) => {
 
   const rows = {}
   posts.map(({ data: { date } }) => {
-    const s: any = fecha.parse(date, 'YYYY-MM-DDTHH:mm:ss.ZZ')
+    const s = fecha.parse(date, 'YYYY-MM-DDTHH:mm:ss.ZZ')
     const d = fecha.format(s, 'postTime')
     rows[d] = rows[d] || 0
     rows[d]++
@@ -24,11 +24,7 @@ const Index = ({ posts }) => {
 
   return (
     <Layout>
-      <Head>
-        <title>:-)</title>
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='stylesheet' href='/static/bundle.css' />
-      </Head>
+      <Head title={''} />
       <Nav />
       <div className='container is-widescreen'>
         <CalendarHeatmap
