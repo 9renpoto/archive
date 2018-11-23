@@ -33,7 +33,7 @@ categories:
 - <https://github.com/nodejs/worker/issues/6>
 - <https://developer.mozilla.org/en-US/docs/Web/API/Web_Locks_API>
 - <https://github.com/Microsoft/napajs>
-  - shared js object
+  - shared JS object
 - <https://twitter.com/yosuke_furukawa/status/1065799544351285249>
 
 ## Diagnose your Node.js app
@@ -44,3 +44,15 @@ categories:
 ## State of SEO for SPA
 
 - <https://nodefest.jp/2018/schedule.html#conference-2-4>
+- <https://twitter.com/sekikazu01/status/1065833675688894464>
+- <https://twitter.com/sekikazu01/status/1065825419213991937>
+
+## Reactにおけるパフォーマンスチューニング
+
+- <https://nodefest.jp/2018/schedule.html#conference-2-5>
+- <https://recruit-tech.co.jp/blog/2018/09/19/react_spa_performance_tuning/>
+
+## WebアプリをNativeアプリにするCapacitorが広げるWebの可能性
+
+- <https://nodefest.jp/2018/schedule.html#conference-2-6>
+- <https://github.com/ionic-team/capacitor>
