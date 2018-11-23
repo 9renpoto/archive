@@ -9,6 +9,8 @@ categories:
 
 # memo
 
+- <https://nodefest.jp/2018/>
+
 ## Offline-First Collaborative Data Structures
 
 - Collaborative P2P
@@ -56,3 +58,20 @@ categories:
 
 - <https://nodefest.jp/2018/schedule.html#conference-2-6>
 - <https://github.com/ionic-team/capacitor>
+
+## 実践GraphQL forクライアント側
+
+- <https://nodefest.jp/2018/schedule.html#conference-2-7>
+- <https://speakerdeck.com/petitviolet/real-world-graphql-on-scala>
+- <https://github.com/petitviolet/graphql_on_scala>
+
+## Service Workerを用いたキャッシング戦略 〜Wikiアプリケーションを例に〜
+
+- <https://nodefest.jp/2018/schedule.html#conference-2-8>
+- <https://scrapbox.io/daiiz/ServiceWorker%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%B3%E3%82%B0%E6%88%A6%E7%95%A5_%E3%80%9CWiki%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E4%BE%8B%E3%81%AB%E3%80%9C>
+- <https://caniuse.com/#search=network>
+
+## Vue.js/Nuxt.jsで実現できたPWAのリアルタイム動画ラップ・バトル・アプリ
+
+- <https://nodefest.jp/2018/schedule.html#conference-2-10>
+- <https://riotz.works/slides/?2018-nodefest>
