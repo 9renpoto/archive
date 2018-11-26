@@ -16,7 +16,7 @@
     "prop-types": "15.6.2",
     "react": "16.6.3",
     "react-dom": "16.6.3",
-    "react-ga": "2.5.3"
+    "react-ga": "2.5.5"
   },
   "devDependencies": {
     "@9renpoto/eslint-config": "4.7.0",
