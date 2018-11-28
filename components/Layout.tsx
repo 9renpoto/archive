@@ -4,6 +4,7 @@ import {
   showReportDialog,
   withScope
 } from '@sentry/browser'
+import { SentryEvent } from '@sentry/types'
 import React, { PureComponent } from 'react'
 import { initGA, logPageView } from '../utils/analytics'
 
@@ -13,7 +14,13 @@ export default class Layout extends PureComponent<Props, { error: any }> {
   constructor (props: Props) {
     super(props)
     init({
-      dsn: 'https://f618bc349b614299939433b00e4be281@sentry.io/103445'
+      dsn: 'https://f618bc349b614299939433b00e4be281@sentry.io/103445',
+      beforeSend (event: SentryEvent) {
+        if (event.exception) {
+          showReportDialog()
+        }
+        return event
+      }
     })
     this.state = { error: null }
   }
