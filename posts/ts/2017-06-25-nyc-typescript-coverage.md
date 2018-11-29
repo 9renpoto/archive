@@ -1,10 +1,10 @@
 ---
-date: '2017-06-25T13:40:18+09:00'
-permalink: '/entry/2017/06/25/nyc-typescript-coverage/'
+date: "2017-06-25T13:40:18+09:00"
+permalink: "/entry/2017/06/25/nyc-typescript-coverage/"
 title: TypeScript で coverage を計測する方法を変える
-categories:
-  - "typescript"
+category: "js"
 ---
+
 # TL;DR
 
 - nycが公式でサポート
