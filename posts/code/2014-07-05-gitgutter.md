@@ -5,6 +5,7 @@ permalink: "/entry/2014/07/05/gitgutter/"
 categories:
   - "vim"
 ---
+
 # Gutter
 
 ![image](http://i.gyazo.com/9dda194e4854fcbe6f09e39c99f91273.png)
