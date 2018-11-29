@@ -1,22 +1,38 @@
+import {
+  faJs,
+  faPhoenixFramework,
+  faPython,
+  faReact
+} from '@fortawesome/free-brands-svg-icons'
+import { faBook, faCoffee, faFire } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'nextein/link'
-import React, { Fragment } from 'react'
+import React from 'react'
+import { TimelineEvent } from 'react-event-timeline'
+
+const definedCategory = {
+  js: faJs,
+  elixir: faPhoenixFramework,
+  react: faReact,
+  fire: faFire,
+  python: faPython,
+  book: faBook
+}
 
 const PostListEntry = ({ data, content }) => {
   const { title, date } = data
 
   return (
-    <Fragment>
-      <div className='tags has-addons'>
-        <span className='tag is-dark'>{`${new Date(
-          date
-        ).toDateString()}`}</span>
-        <span className='tag'>
-          <Link data={data} content={content}>
-            <a>{title}</a>
-          </Link>
-        </span>
-      </div>
-    </Fragment>
+    <TimelineEvent
+      title={data.category}
+      createdAt={`${new Date(date).toDateString()}`}
+      icon={
+        <FontAwesomeIcon icon={definedCategory[data.category] || faCoffee} />}
+    >
+      <Link data={data} content={content}>
+        <a>{title}</a>
+      </Link>
+    </TimelineEvent>
   )
 }
 
