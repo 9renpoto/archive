@@ -1,7 +1,8 @@
 ---
-date: '2018-07-02T12:00:00+09:00'
-permalink: '/entry/2018/07/02/takizawa-farm-camping-ground/'
+date: "2018-07-02T12:00:00+09:00"
+permalink: "/entry/2018/07/02/takizawa-farm-camping-ground/"
 title: "滝沢牧場キャンプ場"
+category: "fire"
 ---
 
 # TL;DR
