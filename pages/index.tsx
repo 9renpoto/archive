@@ -2,6 +2,7 @@ import * as fecha from 'fecha'
 import withPosts, { sortByDate } from 'nextein/posts'
 import React from 'react'
 import CalendarHeatmap from 'react-calendar-heatmap'
+import { Timeline } from 'react-event-timeline'
 import Head from '../components/Head'
 import Layout from '../components/Layout'
 import Nav from '../components/Nav'
@@ -36,9 +37,11 @@ const Index = ({ posts }) => {
           classForValue={value => `color-github-${value ? value.count : 0}`}
         />
         <section>
-          {posts.map((post, i) => (
-            <PostListEntry key={i} {...post} />
-          ))}
+          <Timeline>
+            {posts.map((post, i) => (
+              <PostListEntry key={i} {...post} />
+            ))}
+          </Timeline>
         </section>
       </div>
     </Layout>

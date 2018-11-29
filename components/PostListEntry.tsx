@@ -4,7 +4,12 @@ import {
   faPython,
   faReact
 } from '@fortawesome/free-brands-svg-icons'
-import { faBook, faCoffee, faFire } from '@fortawesome/free-solid-svg-icons'
+import {
+  faBook,
+  faCode,
+  faCoffee,
+  faFire
+} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'nextein/link'
 import React from 'react'
@@ -16,7 +21,16 @@ const definedCategory = {
   react: faReact,
   fire: faFire,
   python: faPython,
-  book: faBook
+  book: faBook,
+  code: faCode
+}
+
+const color = {
+  react: '03a9f4',
+  fire: 'f46542',
+  elixir: 'e70ef7',
+  js: '3f89ff',
+  code: '2c2f35'
 }
 
 const PostListEntry = ({ data, content }) => {
@@ -24,8 +38,9 @@ const PostListEntry = ({ data, content }) => {
 
   return (
     <TimelineEvent
-      title={data.category}
+      title={''}
       createdAt={`${new Date(date).toDateString()}`}
+      iconColor={`#${color[data.category]}`}
       icon={
         <FontAwesomeIcon icon={definedCategory[data.category] || faCoffee} />}
     >
