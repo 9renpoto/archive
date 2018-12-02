@@ -1,4 +1,4 @@
-import * as fecha from 'fecha'
+import dayjs from 'dayjs'
 import withPosts, { sortByDate } from 'nextein/posts'
 import React from 'react'
 import CalendarHeatmap from 'react-calendar-heatmap'
@@ -8,15 +8,12 @@ import Layout from '../components/Layout'
 import Nav from '../components/Nav'
 import PostListEntry from '../components/PostListEntry'
 
-fecha.masks.postTime = 'YYYY-MM-DD'
-
 const Index = ({ posts }) => {
   posts.sort(sortByDate)
 
   const rows = {}
   posts.map(({ data: { date } }) => {
-    const s = fecha.parse(date, 'YYYY-MM-DDTHH:mm:ss.ZZ')
-    const d = fecha.format(s, 'postTime')
+    const d = dayjs(date).format()
     rows[d] = rows[d] || 0
     rows[d]++
   })
