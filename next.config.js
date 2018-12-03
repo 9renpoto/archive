@@ -1,5 +1,6 @@
 const config = require('nextein/config').default
 const withTypescript = require('@zeit/next-typescript')
+const withOffline = require('next-offline')
 const { entries, inCategory } = require('nextein/posts')
 
 const getStories = async () => {
@@ -22,7 +23,7 @@ const getStories = async () => {
 }
 
 module.exports = config({
-  ...withTypescript(),
+  ...withOffline(withTypescript()),
   exportPathMap: async () => {
     const stories = await getStories()
     return {
