@@ -16,6 +16,7 @@
     "@types/react-calendar-heatmap": "1.6.2",
     "dayjs": "1.7.7",
     "next": "7.0.2",
+    "next-offline": "3.2.2",
     "nextein": "2.1.2",
     "prop-types": "15.6.2",
     "react": "16.6.3",
@@ -89,7 +90,7 @@
   "size-limit": [
     {
       "path": ".next/static/chunks/commons.*.js",
-      "limit": "94 KB"
+      "limit": "91 KB"
     },
     {
       "path": ".next/static/runtime/main-*.js",
