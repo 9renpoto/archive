@@ -12,7 +12,7 @@ before_install:
 - eval `ssh-agent -s`
 - ssh-add deploy_key
 - git config --global user.name "9renpoto"
-- git config --global user.email "9renpoto@gmail.com"
+- git config --global user.email "9renpoto+bot@gmail.com"
 script:
 - npm run $CMD
 after_success:
