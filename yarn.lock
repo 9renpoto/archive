@@ -21,15 +21,14 @@
     eslint-plugin-promise "^4.0.0"
     eslint-plugin-standard "^4.0.0"
 
-"@9renpoto/style@0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@9renpoto/style/-/style-0.0.3.tgz#004e8f8b15c539b8b17d133fff7eeaf68e61c0c8"
-  integrity sha512-AaFFx1xOHtXiu15FpbV64f2IeoGMQxFmHnWb4erKBB6XwR7upU5xHocf2nsKZYmuMBqcyjFQOYB/vOdwKJf9iA==
+"@9renpoto/style@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@9renpoto/style/-/style-0.1.2.tgz#90eb5059d059ef29bd337b10c5ad9cbf63e9af30"
+  integrity sha512-7P0xqmnZid9E1GlsBuwijp8uIRdq4NVRJcqDVXIJFsaA7MgUG1ceGogzG3jqxCWbwfqoMVNWVa/wWsG2r5I9ow==
   dependencies:
-    bulma "^0.6.1"
-    classnames "^2.2.5"
-    react-calendar-heatmap "^1.6.1"
-    react-fa "^5.0.0"
+    bulma "0.7.2"
+    classnames "2.2.6"
+    react-calendar-heatmap "1.8.0"
 
 "@9renpoto/textlint-config-ja@4.7.0":
   version "4.7.0"
@@ -2374,10 +2373,10 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
-bulma@^0.6.1:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.6.2.tgz#f4b1d11d5acc51a79644eb0a2b0b10649d3d71f5"
-  integrity sha1-9LHRHVrMUaeWROsKKwsQZJ09cfU=
+bulma@0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.2.tgz#8e944377b74c7926558830d38d8e19eaf49f5fb6"
+  integrity sha512-6JHEu8U/1xsyOst/El5ImLcZIiE2JFXgvrz8GGWbnDLwTNRPJzdAM0aoUM1Ns0avALcVb6KZz9NhzmU53dGDcQ==
 
 bytes@3.0.0, bytes@^3.0.0:
   version "3.0.0"
@@ -2643,7 +2642,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
+classnames@2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -4107,11 +4106,6 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
-
-font-awesome@^4.3.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
-  integrity sha1-j6jPBBGhoxr9B7BtKQK7n8gVoTM=
 
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
@@ -5912,6 +5906,11 @@ mem@^4.0.0:
     mimic-fn "^1.0.0"
     p-is-promise "^1.1.0"
 
+memoize-one@^4.0.2:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-4.0.3.tgz#cdfdd942853f1a1b4c71c5336b8c49da0bf0273c"
+  integrity sha512-QmpUu4KqDmX0plH4u+tf0riMc1KHE1+lw95cMrLlXQAFOx/xnBtwhZ52XJxd9X2O6kwKBqX32kmhbhlobD0cuw==
+
 memory-fs@^0.4.0, memory-fs@^0.4.1, memory-fs@~0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/memory-fs/-/memory-fs-0.4.1.tgz#3a9a20b8462523e447cfbc7e8bb80ed667bfc552"
@@ -7141,7 +7140,7 @@ prop-types-exact@1.2.0:
     object.assign "^4.1.0"
     reflect.ownkeys "^0.2.0"
 
-prop-types@15.6.2, prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.2:
+prop-types@15.6.2, prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   integrity sha512-3pboPvLiWD7dkI3qf3KbUe6hKFKa52w+AE0VCqECtf+QHAKgOL37tTaNCnuX1nAAQ4ZhyP+kYVKf8rLmJ/feDQ==
@@ -7314,11 +7313,12 @@ rc@^1.2.7, rc@~1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-calendar-heatmap@^1.6.1:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/react-calendar-heatmap/-/react-calendar-heatmap-1.7.0.tgz#e6bf32a79c1557962cf68806a89e21aeb16797b8"
-  integrity sha512-stPZSm07l3mZmj/MXOD+feHM2ZWY4Jb8fn06O+OeMFMasRCuiB2ZjBgCnCLb0BZ4hHh8vHNQ9v7wapiMcVgU0g==
+react-calendar-heatmap@1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/react-calendar-heatmap/-/react-calendar-heatmap-1.8.0.tgz#7672fc697c792c3ab71cb6d8ecb19362ace14ed1"
+  integrity sha512-Dsf2d2MKA31QzLN63fW6PTixJVzMCm2+KhprkGXaeZFvBAL2hK2guiYvr+zFpPkh1ZpGNYdrdNfn9FxhiBd1fg==
   dependencies:
+    memoize-one "^4.0.2"
     prop-types "^15.6.2"
 
 react-dom@16.6.3:
@@ -7342,14 +7342,6 @@ react-event-timeline@1.6.1:
   integrity sha512-cEIz6JAqP4OM41xtmNYlapwu2bJkCf6P6zWvw56j0Atn1OGTLJYw/wU1OV0b2Tv9oop+l//74Ku/DHemEuzMqA==
   dependencies:
     prop-types "^15.6.0"
-
-react-fa@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/react-fa/-/react-fa-5.0.0.tgz#d571732856c6cb2c155c46daef018ba67a75b973"
-  integrity sha512-pBEJigNkDJPAP/P9mQXT55VbJbbtwqi4ayieXuFvGpd+gl3aZ9IbjjVKJihdhdysJP0XRgrSa3sT3yOmkQi8wQ==
-  dependencies:
-    font-awesome "^4.3.0"
-    prop-types "^15.5.8"
 
 react-ga@2.5.6:
   version "2.5.6"
