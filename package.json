@@ -90,7 +90,7 @@
   "size-limit": [
     {
       "path": ".next/static/chunks/commons.*.js",
-      "limit": "91 KB"
+      "limit": "92 KB"
     },
     {
       "path": ".next/static/runtime/main-*.js",
@@ -98,7 +98,7 @@
     },
     {
       "path": ".next/static/runtime/webpack-*.js",
-      "limit": "500 B"
+      "limit": "450 B"
     }
   ],
   "husky": {
