@@ -2,7 +2,7 @@
 date: "2018-04-18T23:00:00+09:00"
 permalink: "/entry/2018/04/18/next-typescript/"
 title: next.js がやっとTypeScriptを使えるように
-category: js
+category: react
 ---
 
 # TL;DR

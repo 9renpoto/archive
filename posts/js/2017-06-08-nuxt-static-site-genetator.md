@@ -2,7 +2,7 @@
 date: "2017-06-08T22:22:18+09:00"
 permalink: "/entry/2017/06/08/nuxt-static-site-genetator/"
 title: nuxt static site genetator
-category: "js"
+category: vuejs
 ---
 
 # TL;DR
