@@ -2,6 +2,7 @@
 date: "2018-12-13T18:00:00+09:00"
 permalink: "/entry/2018/12/13/nextjs-enviroments/"
 title: next.js で `process.env` 以下の環境変数を参照する
+category: react
 ---
 
 # TL;DR

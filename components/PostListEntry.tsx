@@ -4,7 +4,8 @@ import {
   faJs,
   faPhoenixFramework,
   faPython,
-  faReact
+  faReact,
+  faVuejs
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faBook,
@@ -21,6 +22,7 @@ import { TimelineEvent } from 'react-event-timeline'
 const definedCategory = {
   'css3-alt': faCss3Alt,
   js: faJs,
+  vuejs: faVuejs,
   elixir: faPhoenixFramework,
   react: faReact,
   fire: faFire,
