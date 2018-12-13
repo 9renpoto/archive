@@ -8,12 +8,14 @@ import Layout from '../components/Layout'
 import Nav from '../components/Nav'
 import PostListEntry from '../components/PostListEntry'
 
+const toDateString = datetime => dayjs(datetime).format('YYYY-MM-DD')
+
 const Index = ({ posts }) => {
   posts.sort(sortByDate)
 
   const rows = {}
   posts.map(({ data: { date } }) => {
-    const d = dayjs(date).format()
+    const d = toDateString(date)
     rows[d] = rows[d] || 0
     rows[d]++
   })
@@ -26,11 +28,16 @@ const Index = ({ posts }) => {
       <Nav />
       <div className='container is-widescreen'>
         <CalendarHeatmap
-          startDate={
-            new Date(today.getFullYear() - 1, today.getMonth(), today.getDay())
-          }
-          endDate={new Date()}
-          values={Object.keys(rows).map(date => ({ count: rows[date], date }))}
+          startDate={dayjs(today)
+            .add(-1, 'year')
+            .toDate()}
+          endDate={today}
+          values={Object.keys(rows).map(datetime =>
+            ((date = toDateString(datetime)) => ({
+              count: rows[date],
+              date: datetime
+            }))()
+          )}
           classForValue={value => `color-github-${value ? value.count : 0}`}
         />
         <section>
