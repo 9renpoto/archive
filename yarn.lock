@@ -7373,10 +7373,10 @@ react-error-overlay@4.0.0:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
   integrity sha512-FlsPxavEyMuR6TjVbSSywovXSEyOg6ZDj5+Z8nbsRl9EkOzAhEIcS+GLoQDC5fz/t9suhUXWmUrOBrgeUvrMxw==
 
-react-event-timeline@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/react-event-timeline/-/react-event-timeline-1.6.1.tgz#091362c71520e1a555cb60b981e44702d0d4c54d"
-  integrity sha512-cEIz6JAqP4OM41xtmNYlapwu2bJkCf6P6zWvw56j0Atn1OGTLJYw/wU1OV0b2Tv9oop+l//74Ku/DHemEuzMqA==
+react-event-timeline@1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/react-event-timeline/-/react-event-timeline-1.6.2.tgz#e96e6614e69663a3a85584bab0597d304f53746d"
+  integrity sha512-w5YCRxv9g8qJBOhmn2HE1crc9U2yZFDUi9qVLIOZy61Q6TEZkCd5/eUC91dpzZcaNKzlFqYYdlqXtrmupqFlyw==
   dependencies:
     prop-types "^15.6.0"
 
