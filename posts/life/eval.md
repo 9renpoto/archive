@@ -19,7 +19,7 @@ title: 評価
 
 ## 評価の誤差と対策
 
-- [サイコロを降る](https://www.kayac.com/vision/dice)
+- [サイコロを振る](https://www.kayac.com/vision/dice)
 - [評価制度なし](https://gist.github.com/voluntas/4f90a626adae624d8c23)
 - 他に特徴的なものがあれば知りたい
 
