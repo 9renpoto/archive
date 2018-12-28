@@ -17,7 +17,7 @@ category: react
 
 ## `babel-plugin-transform-define` を使う
 
-- refs: <https://github.com/zeit/next.js/tree/canary/examples/with-universal-configuration>
+- refs: <https://github.com/zeit/next.js/tree/master/examples/with-universal-configuration>
 - babel7に対応してない（2018/12現在）。[PR はあるけれど放置されている](https://github.com/FormidableLabs/babel-plugin-transform-define/pull/49)
 
 ## `dotenv-webpack` を使う
