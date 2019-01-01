@@ -12,6 +12,7 @@ import {
   faCode,
   faCoffee,
   faFire,
+  faGem,
   faMotorcycle
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -22,6 +23,7 @@ import { TimelineEvent } from 'react-event-timeline'
 const definedCategory = {
   'css3-alt': faCss3Alt,
   js: faJs,
+  rb: faGem,
   vuejs: faVuejs,
   elixir: faPhoenixFramework,
   react: faReact,
@@ -34,13 +36,14 @@ const definedCategory = {
 }
 
 const color = {
-  react: '03a9f4',
-  fire: 'f46542',
-  elixir: 'e70ef7',
-  js: '3f89ff',
-  code: '2c2f35',
   book: '2c2f35',
-  motorcycle: 'f46542'
+  code: '2c2f35',
+  elixir: 'e70ef7',
+  fire: 'f46542',
+  js: '3f89ff',
+  motorcycle: 'f46542',
+  rb: 'ff5733',
+  react: '03a9f4'
 }
 
 const PostListEntry = ({ data, content }) => {
