@@ -6,14 +6,16 @@ title: "重い腰を上げてRailsを見る"
 
 # TL;DR
 
-そうだRailsを学ぼう。.。
+- いろんな会社に話を聞きに行ったが、まだまだ世界はRails
+- そうだRailsを学ぼう
+- とりあえず数時間だけ作った、 getting startedを進めていきたい
 
 <https://github.com/9renpoto/rb>
 
 ## Rubyを手に入れる
 
 - `brew install ruby` で雑に使っていたわけだが流石にバージョンを固定する
-  - 過去はrbenvを使っていたけれど [`using asdf instend`](https://github.com/daenney/rbenv)
+  - 過去はrbenvを使っていたけれど [using asdf instend](https://github.com/daenney/rbenv) らしいので別で検討する
     - [omf/plugin-rbenv](https://github.com/oh-my-fish/plugin-rbenv) でも良かったけれど更新されてない
   - とりあえずメンテされてそうな [rstacruz/fish-asdf](https://github.com/rstacruz/fish-asdf) を入れる
   - `asdf` そのものは `brew` で入れて、かつ `/usr/local/bin` を使っていないためイマイチ動きが合わない
