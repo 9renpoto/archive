@@ -28,7 +28,7 @@ category: "js"
 - styleguideを書く
   - <https://github.com/9renpoto/style>
 - riotを使った簡単なものを作る
-  - <https://github.com/9renpoto/profile>
+  - `https://github.com/9renpoto/profile`
 
 ## 気持ち
 
