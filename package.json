@@ -21,7 +21,7 @@
     "prop-types": "15.6.2",
     "react": "16.7.0",
     "react-dom": "16.7.0",
-    "react-event-timeline": "1.6.2",
+    "react-event-timeline": "1.6.3",
     "react-ga": "2.5.6"
   },
   "devDependencies": {
