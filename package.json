@@ -78,7 +78,7 @@
     "build": "nextein build && size-limit",
     "clean": "rimraf out .next && find components/ pages/ utils/ -type f -name '*.jsx' -exec rm {} \\;",
     "export": "nextein export",
-    "lint": "run-p lint:*",
+    "lint": "run-p -l lint:*",
     "lint:ja": "textlint posts --cache",
     "lint:md": "markdownlint posts",
     "lint:ts": "tslint {pages,component,post}/**/*.ts{,x}",
