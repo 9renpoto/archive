@@ -82,7 +82,7 @@
     "lint:ja": "textlint posts --cache",
     "lint:md": "markdownlint posts",
     "lint:ts": "tslint {pages,component,post}/**/*.ts{,x}",
-    "preexport": "run-p assets build",
+    "preexport": "run-p -l assets build",
     "prestart": "run-s clean assets",
     "start": "nextein",
     "test": "run-s clean export"
@@ -90,7 +90,7 @@
   "size-limit": [
     {
       "path": ".next/static/chunks/commons.*.js",
-      "limit": "92 KB"
+      "limit": "93 KB"
     },
     {
       "path": ".next/static/runtime/main-*.js",
