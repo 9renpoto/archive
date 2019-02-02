@@ -6,9 +6,9 @@
   },
   "dependencies": {
     "@9renpoto/style": "0.1.2",
-    "@fortawesome/fontawesome-svg-core": "1.2.13",
-    "@fortawesome/free-brands-svg-icons": "5.7.0",
-    "@fortawesome/free-solid-svg-icons": "5.7.0",
+    "@fortawesome/fontawesome-svg-core": "1.2.14",
+    "@fortawesome/free-brands-svg-icons": "5.7.1",
+    "@fortawesome/free-solid-svg-icons": "5.7.1",
     "@fortawesome/react-fontawesome": "0.1.4",
     "@sentry/browser": "4.5.3",
     "@types/next": "7.0.7",
