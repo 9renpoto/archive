@@ -19,7 +19,7 @@ category: "js"
 - web component時代のcss , htmlとの付き合い方
   - styleguideはどこまで責任を持つべきか
     - web componentライブラリーを含めて書くべきか
-  - <http://morishitter.hatenablog.com/entry/2016/07/29/204642>
+  - <https://morishitter.hatenablog.com/entry/2016/07/29/204642>
     - まだCSS Modulesを使うべきか個人レベルではわからない
     - この記事を理解するための勉強あ必要
 
