@@ -90,7 +90,7 @@
   "size-limit": [
     {
       "path": ".next/static/chunks/commons.*.js",
-      "limit": "93 KB"
+      "limit": "95 KB"
     },
     {
       "path": ".next/static/runtime/main-*.js",
