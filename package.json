@@ -19,8 +19,8 @@
     "next-offline": "3.3.5",
     "nextein": "2.1.2",
     "prop-types": "15.7.1",
-    "react": "16.7.0",
-    "react-dom": "16.7.0",
+    "react": "16.8.1",
+    "react-dom": "16.8.1",
     "react-event-timeline": "1.6.3",
     "react-ga": "2.5.7"
   },
