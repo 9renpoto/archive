@@ -13,6 +13,6 @@ category: js
 ## Refs
 
 - babel依存
-  - <https://github.com/zeit/next.js/tree/master/examples/with-universal-configuration>
+  - <https://github.com/zeit/next.js/tree/master/examples/with-universal-configuration-build-time>
 - webpack依存
   - <https://github.com/zeit/next.js/issues/159>
