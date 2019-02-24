@@ -10,7 +10,7 @@
     "@fortawesome/free-brands-svg-icons": "5.7.2",
     "@fortawesome/free-solid-svg-icons": "5.7.2",
     "@fortawesome/react-fontawesome": "0.1.4",
-    "@sentry/browser": "4.6.2",
+    "@sentry/browser": "4.6.3",
     "@types/next": "7.0.9",
     "@types/react": "16.8.4",
     "@types/react-calendar-heatmap": "1.6.2",
