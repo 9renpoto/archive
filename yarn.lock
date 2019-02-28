@@ -6628,10 +6628,10 @@ neo-async@^2.5.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.5.2.tgz#489105ce7bc54e709d736b195f82135048c50fcc"
   integrity sha512-vdqTKI9GBIYcAEbFAcpKPErKINfPF5zIuz3/niBfq8WUZjpT2tytLlFVrBgWdOtqI4uaA/Rb6No0hux39XXDuw==
 
-next-offline@3.3.5:
-  version "3.3.5"
-  resolved "https://registry.yarnpkg.com/next-offline/-/next-offline-3.3.5.tgz#e4c3f33efb0c4f49f3e28abd513ccc3a8fc8080f"
-  integrity sha512-e6J838mppCpYMnbCvthoOSZNtAj9iFpJdVnCkuQTiIFU9IDP/GxKpjsixfP1UaTyHCmO2GzmyiYaglzFMPeVVQ==
+next-offline@3.3.6:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/next-offline/-/next-offline-3.3.6.tgz#3e35ad59d489c641a4d5745f5b06ce45faa53a42"
+  integrity sha512-hBlGTaWqv9xJf3c4WqjAfb6jO3+Rdfw42p9PQeQlsnO8G0bCg7GUxFebKDcK/b4scFFgmnvp4UNPt1vyMbpQgw==
   dependencies:
     clean-webpack-plugin "^0.1.19"
     copy-webpack-plugin "~4.5.2"
