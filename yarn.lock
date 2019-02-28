@@ -2598,10 +2598,10 @@ check-types@^7.3.0:
   resolved "https://registry.yarnpkg.com/check-types/-/check-types-7.4.0.tgz#0378ec1b9616ec71f774931a3c6516fad8c152f4"
   integrity sha512-YbulWHdfP99UfZ73NcUDlNJhEIDgm9Doq9GhpyXbF+7Aegi3CVV7qqMCKTTqJxlvEvnQBp9IA+dxsGN6xK/nSg==
 
-chokidar@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.1.tgz#adc39ad55a2adf26548bd2afa048f611091f9184"
-  integrity sha512-gfw3p2oQV2wEt+8VuMlNsPjCxDxvvgnm/kz+uATu805mWVF8IJN7uz9DN7iBz+RMJISmiVbCOBFs9qBGMjtPfQ==
+chokidar@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.2.tgz#9c23ea40b01638439e0513864d362aeacc5ad058"
+  integrity sha512-IwXUx0FXc5ibYmPC2XeEj5mpXoV66sR+t3jqu2NS2GYwCktt3KF1/Qqjws/NkegajBA4RbZ5+DDwlOiJsxDHEg==
   dependencies:
     anymatch "^2.0.0"
     async-each "^1.0.1"
@@ -6704,12 +6704,12 @@ next@7.0.3:
     worker-farm "1.5.2"
     write-file-webpack-plugin "4.3.2"
 
-nextein@2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/nextein/-/nextein-2.1.3.tgz#fb8fd5d416abb9a40d576ad092998e9786f8946a"
-  integrity sha512-m5CtLwpJFiv9eRd3jaiMB2enjetWcUj429mXcGYJsNL9FWAdRWloBqUVOLP4rVjqmjv42pnOyNU9RamLOR3S1w==
+nextein@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/nextein/-/nextein-2.2.0.tgz#e07625a2111ca9529fca8716416097a8d0657ebd"
+  integrity sha512-7xi0fXYs90IKvRsQwztoEaE+tb+18Ch8F5v1fw/jvUg7HTCMvaETrbFZ3Z3SnU5mi08o21N1R7NBTr2qpe8uaQ==
   dependencies:
-    chokidar "2.1.1"
+    chokidar "2.1.2"
     cross-spawn "^6.0.0"
     frontmatter "0.0.3"
     glob "^7.1.2"
@@ -6727,6 +6727,7 @@ nextein@2.1.3:
     remark-rehype "4.0.0"
     unfetch "^4.0.0"
     unified "7.1.0"
+    unist-util-remove-position "^1.1.2"
     unist-util-select "^2.0.0"
 
 nice-try@^1.0.4:
@@ -10167,7 +10168,7 @@ unist-util-position@^3.0.0:
   resolved "https://registry.yarnpkg.com/unist-util-position/-/unist-util-position-3.0.1.tgz#8e220c24658239bf7ddafada5725ed0ea1ebbc26"
   integrity sha512-05QfJDPI7PE1BIUtAxeSV+cDx21xP7+tUZgSval5CA7tr0pHBwybF7OnEa1dOFqg6BfYH/qiMUnWwWj+Frhlww==
 
-unist-util-remove-position@^1.0.0:
+unist-util-remove-position@^1.0.0, unist-util-remove-position@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/unist-util-remove-position/-/unist-util-remove-position-1.1.2.tgz#86b5dad104d0bbfbeb1db5f5c92f3570575c12cb"
   integrity sha512-XxoNOBvq1WXRKXxgnSYbtCF76TJrRoe5++pD4cCBsssSiWSnPEktyFrFLE8LTk3JW5mt9hB0Sk5zn4x/JeWY7Q==
