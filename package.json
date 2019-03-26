@@ -42,7 +42,7 @@
     "textlint": "11.2.3",
     "textlint-filter-rule-comments": "1.2.2",
     "tslint": "5.14.0",
-    "tslint-react": "3.6.0",
+    "tslint-react": "4.0.0",
     "typescript": "3.3.4000",
     "typescript-eslint-parser": "21.0.2"
   },
