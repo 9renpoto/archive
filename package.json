@@ -43,7 +43,7 @@
     "textlint-filter-rule-comments": "1.2.2",
     "tslint": "5.14.0",
     "tslint-react": "4.0.0",
-    "typescript": "3.3.4000",
+    "typescript": "3.4.1",
     "typescript-eslint-parser": "21.0.2"
   },
   "homepage": "https://github.com/9renpoto/archive#readme",
