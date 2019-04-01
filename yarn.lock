@@ -984,10 +984,10 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@sentry/browser@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-5.0.0.tgz#4a8758bc6f06d32c18ebe99e30837f2c4834d5a1"
-  integrity sha512-w7qYJ6qFsbpFPs8jl1uZXQaOJdcaw6GNSCL2JJCKyeT5EB6GlJ8PPwmcxdyv6UWq7CpgXlRDpUx9uE714LVnUA==
+"@sentry/browser@5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-5.0.2.tgz#aeaff15dd80ca03ba0bb6fc9c848218b1c1b938d"
+  integrity sha512-MJw08js3sAzKeKg7EEUsRxAaLVfhd9+qsimYw4JTDab1VFvSfc8zLjTvnnqtUNqbUHi04wyYU5uOJO7ZvfcO7Q==
   dependencies:
     "@sentry/core" "5.0.0"
     "@sentry/types" "5.0.0"
