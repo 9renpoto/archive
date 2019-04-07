@@ -48,4 +48,4 @@ category: "react"
 
 ## Refs
 
-[react-storybook を用いた React コンポーネント開発](http://developer.hatenastaff.com/entry/2016/04/14/150000)
+[react-storybook を用いた React コンポーネント開発](https://developer.hatenastaff.com/entry/2016/04/14/150000)
