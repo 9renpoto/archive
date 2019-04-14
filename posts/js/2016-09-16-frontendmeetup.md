@@ -99,7 +99,7 @@ by @nacika_ins
 
 @yoshiko_pg
 
-<http://yoshiko-pg.github.io/slides/20160916-spa/>
+<https://yoshiko-pg.github.io/slides/20160916-spa/>
 
 ## SPAでのセッション管理とセキュリティ
 
