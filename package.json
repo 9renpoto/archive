@@ -41,7 +41,7 @@
     "size-limit": "1.0.1",
     "textlint": "11.2.3",
     "textlint-filter-rule-comments": "1.2.2",
-    "tslint": "5.15.0",
+    "tslint": "5.16.0",
     "tslint-react": "4.0.0",
     "typescript": "3.4.3",
     "typescript-eslint-parser": "21.0.2"
