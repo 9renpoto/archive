@@ -11,7 +11,7 @@
     "@fortawesome/free-solid-svg-icons": "5.8.1",
     "@fortawesome/react-fontawesome": "0.1.4",
     "@sentry/browser": "5.1.1",
-    "@types/next": "8.0.3",
+    "@types/next": "8.0.4",
     "@types/react": "16.8.14",
     "@types/react-calendar-heatmap": "1.6.2",
     "dayjs": "1.8.12",
