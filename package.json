@@ -15,7 +15,7 @@
     "@types/react": "16.8.14",
     "@types/react-calendar-heatmap": "1.6.2",
     "dayjs": "1.8.13",
-    "next": "8.0.4",
+    "next": "8.1.0",
     "next-offline": "3.3.8",
     "nextein": "2.2.0",
     "prop-types": "15.7.2",
