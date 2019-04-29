@@ -62,7 +62,6 @@
       "prettier --write",
       "textlint --fix",
       "textlint",
-      "markdownlint",
       "git add"
     ]
   },
@@ -79,7 +78,6 @@
     "export": "nextein export",
     "lint": "run-p -l lint:*",
     "lint:ja": "textlint posts --cache",
-    "lint:md": "markdownlint posts",
     "lint:ts": "tslint {pages,component,post}/**/*.ts{,x}",
     "preexport": "run-p -l assets build",
     "prestart": "run-s clean assets",
